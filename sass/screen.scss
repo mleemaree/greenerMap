@@ -36,8 +36,11 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -51,8 +54,11 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -66,8 +72,11 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -81,8 +90,11 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -96,8 +108,11 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -111,23 +126,29 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
 
 .taquillaWrapper{
 	position:absolute;
-	top: 29.5%;
-	left: 64%;
-	width: 7%;
+	top: 26.5%;
+	left: 63%;
+	width: 8%;
 	img{
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -141,8 +162,11 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -156,8 +180,11 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -171,8 +198,11 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -180,14 +210,17 @@
 .pantallaGiganteWrapper{
 	position:absolute;
 	top: 48%;
-	left: 25%;
+	left: 26%;
 	width: 6%;
 	img{
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -201,8 +234,29 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.terrazaKidsWrapper{
+	position:absolute;
+	top: 47.5%;
+	left: 72.2%;
+	width: 14%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
 	}
 }
@@ -216,8 +270,123 @@
 		width: 100%;
 		height: auto;
 		&:hover{
-			background-color:yellow;
+			background-color:#6CF8B0;
 			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
 		}
+	}
+}
+
+.rockodromoWrapper{
+	position:absolute;
+	top: 44.5%;
+	left: 21.5%;
+	width: 7.5%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.barWrapper{
+	position:absolute;
+	top: 49%;
+	left: 16.25%;
+	width: 16%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.camasElasticasWrapper{
+	position:absolute;
+	top: 52.25%;
+	left: 34.25%;
+	width: 12%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.hinchablesWrapper{
+	position:absolute;
+	top: 46%;
+	left: 46%;
+	width: 25%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.castilloInfantilWrapper{
+	position:absolute;
+	top: 45.5%;
+	left: 61%;
+	width: 8%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.canetaBlancaSoloWrapper{
+	position:absolute;
+	top: 50.5%;
+	left: 70%;
+	width: 5.25%;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.tentWrapper{
+	position:absolute;
+	top: 56%;
+	left: 21.5%;
+	width: 8%;
+	img{
+		width: 100%;
+		height: auto;
 	}
 }

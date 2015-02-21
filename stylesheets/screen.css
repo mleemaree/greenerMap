@@ -103,222 +103,451 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 38, ../sass/screen.scss */
 .terrazaMiradoresWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .circuitoQuadsWrapper {
   position: absolute;
   top: 36%;
   left: 34.75%;
   width: 8.75%;
 }
-/* line 50, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .circuitoQuadsWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 53, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .circuitoQuadsWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .circuitoVipersWrapper {
   position: absolute;
   top: 36%;
   left: 42.75%;
   width: 7%;
 }
-/* line 65, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .circuitoVipersWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 68, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .circuitoVipersWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .circuitoMotoTrialInfantilWrapper {
   position: absolute;
   top: 36%;
   left: 49.8%;
   width: 7%;
 }
-/* line 80, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .circuitoMotoTrialInfantilWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 83, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .circuitoMotoTrialInfantilWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .simuladoresCarrerasWrapper {
   position: absolute;
   top: 35.75%;
   left: 54.8%;
   width: 6%;
 }
-/* line 95, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 .simuladoresCarrerasWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 98, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .simuladoresCarrerasWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 .slotNincoWrapper {
   position: absolute;
   top: 36.5%;
   left: 59.8%;
   width: 5%;
 }
-/* line 110, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .slotNincoWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 113, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 .slotNincoWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 .taquillaWrapper {
   position: absolute;
-  top: 29.5%;
-  left: 64%;
-  width: 7%;
+  top: 26.5%;
+  left: 63%;
+  width: 8%;
 }
-/* line 125, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .taquillaWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 128, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .taquillaWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 135, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .tiendaWrapper {
   position: absolute;
   top: 36.5%;
   left: 64%;
   width: 7%;
 }
-/* line 140, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 .tiendaWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 143, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .tiendaWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 150, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .terrazaMotorWrapper {
   position: absolute;
   top: 40.5%;
   left: 22.5%;
   width: 7%;
 }
-/* line 155, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .terrazaMotorWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 158, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .terrazaMotorWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 .carpaClimatizadaWrapper {
   position: absolute;
   top: 40.5%;
   left: 30.75%;
   width: 6%;
 }
-/* line 170, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 .carpaClimatizadaWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 173, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .carpaClimatizadaWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 180, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .pantallaGiganteWrapper {
   position: absolute;
   top: 48%;
-  left: 25%;
+  left: 26%;
   width: 6%;
 }
-/* line 185, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .pantallaGiganteWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 188, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .pantallaGiganteWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 195, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .circuitoKartsWrapper {
   position: absolute;
   top: 42%;
   left: 37%;
   width: 30%;
 }
-/* line 200, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .circuitoKartsWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 203, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .circuitoKartsWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 210, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
+.terrazaKidsWrapper {
+  position: absolute;
+  top: 47.5%;
+  left: 72.2%;
+  width: 14%;
+}
+/* line 251, ../sass/screen.scss */
+.terrazaKidsWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 254, ../sass/screen.scss */
+.terrazaKidsWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 264, ../sass/screen.scss */
 .WCWrapper {
   position: absolute;
   top: 42.5%;
   left: 66.5%;
   width: 7.5%;
 }
-/* line 215, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .WCWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 218, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .WCWrapper img:hover {
-  background-color: yellow;
+  background-color: #6CF8B0;
   transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 282, ../sass/screen.scss */
+.rockodromoWrapper {
+  position: absolute;
+  top: 44.5%;
+  left: 21.5%;
+  width: 7.5%;
+}
+/* line 287, ../sass/screen.scss */
+.rockodromoWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 290, ../sass/screen.scss */
+.rockodromoWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 300, ../sass/screen.scss */
+.barWrapper {
+  position: absolute;
+  top: 49%;
+  left: 16.25%;
+  width: 16%;
+}
+/* line 305, ../sass/screen.scss */
+.barWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 308, ../sass/screen.scss */
+.barWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 318, ../sass/screen.scss */
+.camasElasticasWrapper {
+  position: absolute;
+  top: 52.25%;
+  left: 34.25%;
+  width: 12%;
+}
+/* line 323, ../sass/screen.scss */
+.camasElasticasWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 326, ../sass/screen.scss */
+.camasElasticasWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 336, ../sass/screen.scss */
+.hinchablesWrapper {
+  position: absolute;
+  top: 46%;
+  left: 46%;
+  width: 25%;
+}
+/* line 341, ../sass/screen.scss */
+.hinchablesWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 344, ../sass/screen.scss */
+.hinchablesWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 354, ../sass/screen.scss */
+.castilloInfantilWrapper {
+  position: absolute;
+  top: 45.5%;
+  left: 61%;
+  width: 8%;
+}
+/* line 359, ../sass/screen.scss */
+.castilloInfantilWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 362, ../sass/screen.scss */
+.castilloInfantilWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 372, ../sass/screen.scss */
+.canetaBlancaSoloWrapper {
+  position: absolute;
+  top: 50.5%;
+  left: 70%;
+  width: 5.25%;
+}
+/* line 377, ../sass/screen.scss */
+.canetaBlancaSoloWrapper img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 383, ../sass/screen.scss */
+.tentWrapper {
+  position: absolute;
+  top: 56%;
+  left: 21.5%;
+  width: 8%;
+}
+/* line 388, ../sass/screen.scss */
+.tentWrapper img {
+  width: 100%;
+  height: auto;
 }
