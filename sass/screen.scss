@@ -4,3 +4,220 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+
+
+#ground{
+	background-image: url('../images/ground.png');
+	background-repeat: no-repeat;
+	@include background-size(contain);
+	height: 2000px;
+	width: auto;
+	margin: 10em;
+
+}
+
+.attractionsWrapper{
+	position: relative;
+	width: 100%;
+	padding-bottom:73%;
+	vertical-align:middle;
+	clear:none;
+
+}
+
+.terrazaMiradoresWrapper{
+	position:absolute;
+	top:31%;
+	left: 45.75%;
+	width:8.75%;	
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.circuitoQuadsWrapper{
+	position:absolute;
+	top:36%;
+	left: 34.75%;
+	width:8.75%;	
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.circuitoVipersWrapper{
+	position:absolute;
+	top: 36%;
+	left: 42.75%;
+	width: 7%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.circuitoMotoTrialInfantilWrapper{
+	position:absolute;
+	top: 36%;
+	left: 49.8%;
+	width: 7%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.simuladoresCarrerasWrapper{
+	position:absolute;
+	top: 35.75%;
+	left: 54.8%;
+	width: 6%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.slotNincoWrapper{
+	position:absolute;
+	top: 36.5%;
+	left: 59.8%;
+	width: 5%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.taquillaWrapper{
+	position:absolute;
+	top: 29.5%;
+	left: 64%;
+	width: 7%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.tiendaWrapper{
+	position:absolute;
+	top: 36.5%;
+	left: 64%;
+	width: 7%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.terrazaMotorWrapper{
+	position:absolute;
+	top: 40.5%;
+	left: 22.5%;
+	width: 7%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.carpaClimatizadaWrapper{
+	position:absolute;
+	top: 40.5%;
+	left: 30.75%;
+	width: 6%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.pantallaGiganteWrapper{
+	position:absolute;
+	top: 48%;
+	left: 25%;
+	width: 6%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.circuitoKartsWrapper{
+	position:absolute;
+	top: 42%;
+	left: 37%;
+	width: 30%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
+.WCWrapper{
+	position:absolute;
+	top: 42.5%;
+	left: 66.5%;
+	width: 7.5%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:yellow;
+			transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}

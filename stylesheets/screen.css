@@ -66,3 +66,259 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 11, ../sass/screen.scss */
+#ground {
+  background-image: url("../images/ground.png");
+  background-repeat: no-repeat;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  height: 2000px;
+  width: auto;
+  margin: 10em;
+}
+
+/* line 21, ../sass/screen.scss */
+.attractionsWrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 73%;
+  vertical-align: middle;
+  clear: none;
+}
+
+/* line 30, ../sass/screen.scss */
+.terrazaMiradoresWrapper {
+  position: absolute;
+  top: 31%;
+  left: 45.75%;
+  width: 8.75%;
+}
+/* line 35, ../sass/screen.scss */
+.terrazaMiradoresWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 38, ../sass/screen.scss */
+.terrazaMiradoresWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 45, ../sass/screen.scss */
+.circuitoQuadsWrapper {
+  position: absolute;
+  top: 36%;
+  left: 34.75%;
+  width: 8.75%;
+}
+/* line 50, ../sass/screen.scss */
+.circuitoQuadsWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 53, ../sass/screen.scss */
+.circuitoQuadsWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 60, ../sass/screen.scss */
+.circuitoVipersWrapper {
+  position: absolute;
+  top: 36%;
+  left: 42.75%;
+  width: 7%;
+}
+/* line 65, ../sass/screen.scss */
+.circuitoVipersWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 68, ../sass/screen.scss */
+.circuitoVipersWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 75, ../sass/screen.scss */
+.circuitoMotoTrialInfantilWrapper {
+  position: absolute;
+  top: 36%;
+  left: 49.8%;
+  width: 7%;
+}
+/* line 80, ../sass/screen.scss */
+.circuitoMotoTrialInfantilWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 83, ../sass/screen.scss */
+.circuitoMotoTrialInfantilWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 90, ../sass/screen.scss */
+.simuladoresCarrerasWrapper {
+  position: absolute;
+  top: 35.75%;
+  left: 54.8%;
+  width: 6%;
+}
+/* line 95, ../sass/screen.scss */
+.simuladoresCarrerasWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 98, ../sass/screen.scss */
+.simuladoresCarrerasWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 105, ../sass/screen.scss */
+.slotNincoWrapper {
+  position: absolute;
+  top: 36.5%;
+  left: 59.8%;
+  width: 5%;
+}
+/* line 110, ../sass/screen.scss */
+.slotNincoWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 113, ../sass/screen.scss */
+.slotNincoWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 120, ../sass/screen.scss */
+.taquillaWrapper {
+  position: absolute;
+  top: 29.5%;
+  left: 64%;
+  width: 7%;
+}
+/* line 125, ../sass/screen.scss */
+.taquillaWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 128, ../sass/screen.scss */
+.taquillaWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 135, ../sass/screen.scss */
+.tiendaWrapper {
+  position: absolute;
+  top: 36.5%;
+  left: 64%;
+  width: 7%;
+}
+/* line 140, ../sass/screen.scss */
+.tiendaWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 143, ../sass/screen.scss */
+.tiendaWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 150, ../sass/screen.scss */
+.terrazaMotorWrapper {
+  position: absolute;
+  top: 40.5%;
+  left: 22.5%;
+  width: 7%;
+}
+/* line 155, ../sass/screen.scss */
+.terrazaMotorWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 158, ../sass/screen.scss */
+.terrazaMotorWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 165, ../sass/screen.scss */
+.carpaClimatizadaWrapper {
+  position: absolute;
+  top: 40.5%;
+  left: 30.75%;
+  width: 6%;
+}
+/* line 170, ../sass/screen.scss */
+.carpaClimatizadaWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 173, ../sass/screen.scss */
+.carpaClimatizadaWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 180, ../sass/screen.scss */
+.pantallaGiganteWrapper {
+  position: absolute;
+  top: 48%;
+  left: 25%;
+  width: 6%;
+}
+/* line 185, ../sass/screen.scss */
+.pantallaGiganteWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 188, ../sass/screen.scss */
+.pantallaGiganteWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 195, ../sass/screen.scss */
+.circuitoKartsWrapper {
+  position: absolute;
+  top: 42%;
+  left: 37%;
+  width: 30%;
+}
+/* line 200, ../sass/screen.scss */
+.circuitoKartsWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 203, ../sass/screen.scss */
+.circuitoKartsWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 210, ../sass/screen.scss */
+.WCWrapper {
+  position: absolute;
+  top: 42.5%;
+  left: 66.5%;
+  width: 7.5%;
+}
+/* line 215, ../sass/screen.scss */
+.WCWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 218, ../sass/screen.scss */
+.WCWrapper img:hover {
+  background-color: yellow;
+  transform: translate(0.5vh, -0.5vh);
+}
