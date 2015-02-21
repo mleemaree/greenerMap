@@ -542,12 +542,257 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 383, ../sass/screen.scss */
 .tentWrapper {
   position: absolute;
-  top: 56%;
+  top: 57%;
   left: 21.5%;
-  width: 8%;
+  width: 7%;
 }
 /* line 388, ../sass/screen.scss */
 .tentWrapper img {
   width: 100%;
   height: auto;
+}
+
+/* line 394, ../sass/screen.scss */
+.pistaFutbolWrapper {
+  position: absolute;
+  top: 56.5%;
+  left: 26.75%;
+  width: 17.5%;
+}
+/* line 399, ../sass/screen.scss */
+.pistaFutbolWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 402, ../sass/screen.scss */
+.pistaFutbolWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 412, ../sass/screen.scss */
+.pistaVoleyPlayaWrapper {
+  position: absolute;
+  top: 56.5%;
+  left: 45.5%;
+  width: 16%;
+}
+/* line 417, ../sass/screen.scss */
+.pistaVoleyPlayaWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 420, ../sass/screen.scss */
+.pistaVoleyPlayaWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 430, ../sass/screen.scss */
+.billardsWrapper {
+  position: absolute;
+  top: 56%;
+  left: 71%;
+  width: 6%;
+}
+/* line 435, ../sass/screen.scss */
+.billardsWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 438, ../sass/screen.scss */
+.billardsWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 448, ../sass/screen.scss */
+.skateparkWrapper {
+  position: absolute;
+  top: 65%;
+  left: 13%;
+  width: 25%;
+}
+/* line 453, ../sass/screen.scss */
+.skateparkWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 456, ../sass/screen.scss */
+.skateparkWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 466, ../sass/screen.scss */
+.pumpTrackWrapper {
+  position: absolute;
+  top: 67%;
+  left: 39%;
+  width: 16%;
+  z-index: 2;
+}
+/* line 472, ../sass/screen.scss */
+.pumpTrackWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 475, ../sass/screen.scss */
+.pumpTrackWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 485, ../sass/screen.scss */
+.iniciacionSkateWrapper {
+  position: absolute;
+  top: 72%;
+  left: 37%;
+  width: 16%;
+}
+/* line 490, ../sass/screen.scss */
+.iniciacionSkateWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 493, ../sass/screen.scss */
+.iniciacionSkateWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 503, ../sass/screen.scss */
+.camasElasticas2Wrapper {
+  position: absolute;
+  top: 76%;
+  left: 34%;
+  width: 7%;
+}
+/* line 508, ../sass/screen.scss */
+.camasElasticas2Wrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 511, ../sass/screen.scss */
+.camasElasticas2Wrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*-----FIX THIS ----*/
+/* line 523, ../sass/screen.scss */
+.camasElasticas:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 532, ../sass/screen.scss */
+.minirampWrapper {
+  position: absolute;
+  top: 77%;
+  left: 42%;
+  width: 14%;
+}
+/* line 537, ../sass/screen.scss */
+.minirampWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 540, ../sass/screen.scss */
+.minirampWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 550, ../sass/screen.scss */
+.raceBMXWrapper {
+  position: absolute;
+  top: 67%;
+  left: 53.5%;
+  width: 26%;
+  z-index: 1;
+}
+/* line 556, ../sass/screen.scss */
+.raceBMXWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 559, ../sass/screen.scss */
+.raceBMXWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 569, ../sass/screen.scss */
+.bigAirFoamPitWrapper {
+  position: absolute;
+  top: 60%;
+  left: 68%;
+  width: 19%;
+  z-index: 2;
+}
+/* line 575, ../sass/screen.scss */
+.bigAirFoamPitWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 578, ../sass/screen.scss */
+.bigAirFoamPitWrapper img:hover {
+  background-color: #6CF8B0;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }

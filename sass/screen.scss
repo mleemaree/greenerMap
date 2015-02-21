@@ -382,11 +382,207 @@
 
 .tentWrapper{
 	position:absolute;
-	top: 56%;
+	top: 57%;
 	left: 21.5%;
-	width: 8%;
+	width: 7%;
 	img{
 		width: 100%;
 		height: auto;
 	}
 }
+
+.pistaFutbolWrapper{
+	position:absolute;
+	top: 56.5%;
+	left: 26.75%;
+	width: 17.5%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.pistaVoleyPlayaWrapper{
+	position:absolute;
+	top: 56.5%;
+	left: 45.5%;
+	width: 16%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.billardsWrapper{
+	position:absolute;
+	top: 56%;
+	left: 71%;
+	width: 6%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.skateparkWrapper{
+	position:absolute;
+	top: 65%;
+	left: 13%;
+	width: 25%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.pumpTrackWrapper{
+	position:absolute;
+	top: 67%;
+	left: 39%;
+	width: 16%;
+	z-index:2;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.iniciacionSkateWrapper{
+	position:absolute;
+	top: 72%;
+	left: 37%;
+	width: 16%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.camasElasticas2Wrapper{
+	position:absolute;
+	top: 76%;
+	left: 34%;
+	width: 7%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+/*-----FIX THIS ----*/
+
+.camasElasticas:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+}
+
+
+.minirampWrapper{
+	position:absolute;
+	top: 77%;
+	left: 42%;
+	width: 14%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.raceBMXWrapper{
+	position:absolute;
+	top: 67%;
+	left: 53.5%;
+	width: 26%;
+	z-index:1;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+.bigAirFoamPitWrapper{
+	position:absolute;
+	top: 60%;
+	left: 68%;
+	width: 19%;
+	z-index:2;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			background-color:#6CF8B0;
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+			@include border-radius(5px);
+		}
+	}
+}
+
+
