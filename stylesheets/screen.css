@@ -68,6 +68,67 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 11, ../sass/screen.scss */
+.terrazaMiradoresWrapper:hover, .circuitoQuadsWrapper:hover, .circuitoVipersWrapper:hover, .circuitoMotoTrialInfantilWrapper:hover, .simuladoresCarrerasWrapper:hover, .slotNincoWrapper:hover, .taquillaWrapper:hover, .tiendaWrapper:hover, .terrazaMotorWrapper:hover, .carpaClimatizadaWrapper:hover, .pantallaGiganteWrapper:hover, .circuitoKartsWrapper:hover, .terrazaKidsWrapper:hover, .WCWrapper:hover, .rockodromoWrapper:hover, .barWrapper:hover, .camasElasticasWrapper:hover, .hinchablesWrapper:hover, .castilloInfantilWrapper:hover, .tentWrapper:hover, .pistaFutbolWrapper:hover, .pistaVoleyPlayaWrapper:hover, .billardsWrapper:hover, .skateparkWrapper:hover, .pumpTrackWrapper:hover, .iniciacionSkateWrapper:hover, .camasElasticas2Wrapper:hover, .minirampWrapper:hover, .raceBMXWrapper:hover, .bigAirFoamPitWrapper:hover, .terrazaFreestyleWrapper:hover {
+  z-index: 4;
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 20, ../sass/screen.scss */
+.terrazaMiradoresWrapper:hover .description, .circuitoQuadsWrapper:hover .description, .circuitoVipersWrapper:hover .description, .circuitoMotoTrialInfantilWrapper:hover .description, .simuladoresCarrerasWrapper:hover .description, .slotNincoWrapper:hover .description, .taquillaWrapper:hover .description, .tiendaWrapper:hover .description, .terrazaMotorWrapper:hover .description, .carpaClimatizadaWrapper:hover .description, .pantallaGiganteWrapper:hover .description, .circuitoKartsWrapper:hover .description, .terrazaKidsWrapper:hover .description, .WCWrapper:hover .description, .rockodromoWrapper:hover .description, .barWrapper:hover .description, .camasElasticasWrapper:hover .description, .hinchablesWrapper:hover .description, .castilloInfantilWrapper:hover .description, .tentWrapper:hover .description, .pistaFutbolWrapper:hover .description, .pistaVoleyPlayaWrapper:hover .description, .billardsWrapper:hover .description, .skateparkWrapper:hover .description, .pumpTrackWrapper:hover .description, .iniciacionSkateWrapper:hover .description, .camasElasticas2Wrapper:hover .description, .minirampWrapper:hover .description, .raceBMXWrapper:hover .description, .bigAirFoamPitWrapper:hover .description, .terrazaFreestyleWrapper:hover .description {
+  left: 100%;
+  top: -60%;
+  background-color: #ffffff;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -moz-box-shadow: #949194 2px 2px 10px;
+  -webkit-box-shadow: #949194 2px 2px 10px;
+  box-shadow: #949194 2px 2px 10px;
+  height: 12vh;
+  width: 50vh;
+  z-index: 50;
+}
+/* line 29, ../sass/screen.scss */
+.terrazaMiradoresWrapper:hover .description img, .circuitoQuadsWrapper:hover .description img, .circuitoVipersWrapper:hover .description img, .circuitoMotoTrialInfantilWrapper:hover .description img, .simuladoresCarrerasWrapper:hover .description img, .slotNincoWrapper:hover .description img, .taquillaWrapper:hover .description img, .tiendaWrapper:hover .description img, .terrazaMotorWrapper:hover .description img, .carpaClimatizadaWrapper:hover .description img, .pantallaGiganteWrapper:hover .description img, .circuitoKartsWrapper:hover .description img, .terrazaKidsWrapper:hover .description img, .WCWrapper:hover .description img, .rockodromoWrapper:hover .description img, .barWrapper:hover .description img, .camasElasticasWrapper:hover .description img, .hinchablesWrapper:hover .description img, .castilloInfantilWrapper:hover .description img, .tentWrapper:hover .description img, .pistaFutbolWrapper:hover .description img, .pistaVoleyPlayaWrapper:hover .description img, .billardsWrapper:hover .description img, .skateparkWrapper:hover .description img, .pumpTrackWrapper:hover .description img, .iniciacionSkateWrapper:hover .description img, .camasElasticas2Wrapper:hover .description img, .minirampWrapper:hover .description img, .raceBMXWrapper:hover .description img, .bigAirFoamPitWrapper:hover .description img, .terrazaFreestyleWrapper:hover .description img {
+  visibility: visible !important;
+  float: left;
+  height: 50px;
+  width: 50px;
+  padding: 5%;
+}
+/* line 37, ../sass/screen.scss */
+.terrazaMiradoresWrapper:hover .description h3, .circuitoQuadsWrapper:hover .description h3, .circuitoVipersWrapper:hover .description h3, .circuitoMotoTrialInfantilWrapper:hover .description h3, .simuladoresCarrerasWrapper:hover .description h3, .slotNincoWrapper:hover .description h3, .taquillaWrapper:hover .description h3, .tiendaWrapper:hover .description h3, .terrazaMotorWrapper:hover .description h3, .carpaClimatizadaWrapper:hover .description h3, .pantallaGiganteWrapper:hover .description h3, .circuitoKartsWrapper:hover .description h3, .terrazaKidsWrapper:hover .description h3, .WCWrapper:hover .description h3, .rockodromoWrapper:hover .description h3, .barWrapper:hover .description h3, .camasElasticasWrapper:hover .description h3, .hinchablesWrapper:hover .description h3, .castilloInfantilWrapper:hover .description h3, .tentWrapper:hover .description h3, .pistaFutbolWrapper:hover .description h3, .pistaVoleyPlayaWrapper:hover .description h3, .billardsWrapper:hover .description h3, .skateparkWrapper:hover .description h3, .pumpTrackWrapper:hover .description h3, .iniciacionSkateWrapper:hover .description h3, .camasElasticas2Wrapper:hover .description h3, .minirampWrapper:hover .description h3, .raceBMXWrapper:hover .description h3, .bigAirFoamPitWrapper:hover .description h3, .terrazaFreestyleWrapper:hover .description h3 {
+  padding: 2%;
+  font-size: 1.5em;
+}
+/* line 41, ../sass/screen.scss */
+.terrazaMiradoresWrapper:hover .description p, .circuitoQuadsWrapper:hover .description p, .circuitoVipersWrapper:hover .description p, .circuitoMotoTrialInfantilWrapper:hover .description p, .simuladoresCarrerasWrapper:hover .description p, .slotNincoWrapper:hover .description p, .taquillaWrapper:hover .description p, .tiendaWrapper:hover .description p, .terrazaMotorWrapper:hover .description p, .carpaClimatizadaWrapper:hover .description p, .pantallaGiganteWrapper:hover .description p, .circuitoKartsWrapper:hover .description p, .terrazaKidsWrapper:hover .description p, .WCWrapper:hover .description p, .rockodromoWrapper:hover .description p, .barWrapper:hover .description p, .camasElasticasWrapper:hover .description p, .hinchablesWrapper:hover .description p, .castilloInfantilWrapper:hover .description p, .tentWrapper:hover .description p, .pistaFutbolWrapper:hover .description p, .pistaVoleyPlayaWrapper:hover .description p, .billardsWrapper:hover .description p, .skateparkWrapper:hover .description p, .pumpTrackWrapper:hover .description p, .iniciacionSkateWrapper:hover .description p, .camasElasticas2Wrapper:hover .description p, .minirampWrapper:hover .description p, .raceBMXWrapper:hover .description p, .bigAirFoamPitWrapper:hover .description p, .terrazaFreestyleWrapper:hover .description p {
+  padding: 0 5%;
+}
+/* line 48, ../sass/screen.scss */
+.terrazaMiradoresWrapper span img, .circuitoQuadsWrapper span img, .circuitoVipersWrapper span img, .circuitoMotoTrialInfantilWrapper span img, .simuladoresCarrerasWrapper span img, .slotNincoWrapper span img, .taquillaWrapper span img, .tiendaWrapper span img, .terrazaMotorWrapper span img, .carpaClimatizadaWrapper span img, .pantallaGiganteWrapper span img, .circuitoKartsWrapper span img, .terrazaKidsWrapper span img, .WCWrapper span img, .rockodromoWrapper span img, .barWrapper span img, .camasElasticasWrapper span img, .hinchablesWrapper span img, .castilloInfantilWrapper span img, .tentWrapper span img, .pistaFutbolWrapper span img, .pistaVoleyPlayaWrapper span img, .billardsWrapper span img, .skateparkWrapper span img, .pumpTrackWrapper span img, .iniciacionSkateWrapper span img, .camasElasticas2Wrapper span img, .minirampWrapper span img, .raceBMXWrapper span img, .bigAirFoamPitWrapper span img, .terrazaFreestyleWrapper span img {
+  width: 100%;
+  height: auto;
+  visibility: hidden !important;
+}
+/* line 52, ../sass/screen.scss */
+.terrazaMiradoresWrapper span img:hover, .circuitoQuadsWrapper span img:hover, .circuitoVipersWrapper span img:hover, .circuitoMotoTrialInfantilWrapper span img:hover, .simuladoresCarrerasWrapper span img:hover, .slotNincoWrapper span img:hover, .taquillaWrapper span img:hover, .tiendaWrapper span img:hover, .terrazaMotorWrapper span img:hover, .carpaClimatizadaWrapper span img:hover, .pantallaGiganteWrapper span img:hover, .circuitoKartsWrapper span img:hover, .terrazaKidsWrapper span img:hover, .WCWrapper span img:hover, .rockodromoWrapper span img:hover, .barWrapper span img:hover, .camasElasticasWrapper span img:hover, .hinchablesWrapper span img:hover, .castilloInfantilWrapper span img:hover, .tentWrapper span img:hover, .pistaFutbolWrapper span img:hover, .pistaVoleyPlayaWrapper span img:hover, .billardsWrapper span img:hover, .skateparkWrapper span img:hover, .pumpTrackWrapper span img:hover, .iniciacionSkateWrapper span img:hover, .camasElasticas2Wrapper span img:hover, .minirampWrapper span img:hover, .raceBMXWrapper span img:hover, .bigAirFoamPitWrapper span img:hover, .terrazaFreestyleWrapper span img:hover {
+  /*background-color:#6CF8B0;*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 58, ../sass/screen.scss */
+.terrazaMiradoresWrapper .description, .circuitoQuadsWrapper .description, .circuitoVipersWrapper .description, .circuitoMotoTrialInfantilWrapper .description, .simuladoresCarrerasWrapper .description, .slotNincoWrapper .description, .taquillaWrapper .description, .tiendaWrapper .description, .terrazaMotorWrapper .description, .carpaClimatizadaWrapper .description, .pantallaGiganteWrapper .description, .circuitoKartsWrapper .description, .terrazaKidsWrapper .description, .WCWrapper .description, .rockodromoWrapper .description, .barWrapper .description, .camasElasticasWrapper .description, .hinchablesWrapper .description, .castilloInfantilWrapper .description, .tentWrapper .description, .pistaFutbolWrapper .description, .pistaVoleyPlayaWrapper .description, .billardsWrapper .description, .skateparkWrapper .description, .pumpTrackWrapper .description, .iniciacionSkateWrapper .description, .camasElasticas2Wrapper .description, .minirampWrapper .description, .raceBMXWrapper .description, .bigAirFoamPitWrapper .description, .terrazaFreestyleWrapper .description {
+  position: absolute;
+  left: -9999px;
+  background-color: #ffffff;
+  z-index: 50;
+}
+
+/* line 67, ../sass/screen.scss */
 #ground {
   background-image: url("../images/ground.png");
   background-repeat: no-repeat;
@@ -80,7 +141,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 10em;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .attractionsWrapper {
   position: relative;
   width: 100%;
@@ -89,418 +150,275 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   clear: none;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
+.salidasWrapper {
+  position: absolute;
+  top: 27%;
+  left: 17%;
+  width: 67%;
+}
+/* line 91, ../sass/screen.scss */
+.salidasWrapper img {
+  width: 100%;
+  height: auto;
+}
+/* line 94, ../sass/screen.scss */
+.salidasWrapper img:hover {
+  transform: translate(0.5vh, -0.5vh);
+  -ms-transform: translate(0.5vh, -0.5vh);
+  -webkit-transform: translate(0.5vh, -0.5vh);
+}
+
+/* line 102, ../sass/screen.scss */
 .terrazaMiradoresWrapper {
   position: absolute;
   top: 31%;
   left: 45.75%;
   width: 8.75%;
+  background: url("../images/terrazaMiradoresSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 35, ../sass/screen.scss */
-.terrazaMiradoresWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 38, ../sass/screen.scss */
-.terrazaMiradoresWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 111, ../sass/screen.scss */
+.terrazaMiradoresWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .circuitoQuadsWrapper {
   position: absolute;
   top: 36%;
   left: 34.75%;
   width: 8.75%;
+  background: url("../images/circuitoQuadsSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 53, ../sass/screen.scss */
-.circuitoQuadsWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 56, ../sass/screen.scss */
-.circuitoQuadsWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 125, ../sass/screen.scss */
+.circuitoQuadsWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .circuitoVipersWrapper {
   position: absolute;
   top: 36%;
   left: 42.75%;
   width: 7%;
+  background: url("../images/circuitoVipersSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 71, ../sass/screen.scss */
-.circuitoVipersWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 74, ../sass/screen.scss */
-.circuitoVipersWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 139, ../sass/screen.scss */
+.circuitoVipersWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 .circuitoMotoTrialInfantilWrapper {
   position: absolute;
   top: 36%;
   left: 49.8%;
   width: 7%;
+  background: url("../images/circuitoMotoTrialInfantilSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 89, ../sass/screen.scss */
-.circuitoMotoTrialInfantilWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 92, ../sass/screen.scss */
-.circuitoMotoTrialInfantilWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 153, ../sass/screen.scss */
+.circuitoMotoTrialInfantilWrapper:hover {
+  background-position: 0 106%;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .simuladoresCarrerasWrapper {
   position: absolute;
   top: 35.75%;
   left: 54.8%;
   width: 6%;
+  background: url("../images/simuladoresCarrerasSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 107, ../sass/screen.scss */
-.simuladoresCarrerasWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 110, ../sass/screen.scss */
-.simuladoresCarrerasWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 167, ../sass/screen.scss */
+.simuladoresCarrerasWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 .slotNincoWrapper {
   position: absolute;
   top: 36.5%;
   left: 59.8%;
   width: 5%;
+  background: url("../images/slotNincoSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 125, ../sass/screen.scss */
-.slotNincoWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 128, ../sass/screen.scss */
-.slotNincoWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 181, ../sass/screen.scss */
+.slotNincoWrapper:hover {
+  background-position: 0 107%;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .taquillaWrapper {
   position: absolute;
   top: 26.5%;
   left: 63%;
   width: 8%;
+  background: url("../images/taquillaSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 143, ../sass/screen.scss */
-.taquillaWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 146, ../sass/screen.scss */
-.taquillaWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 195, ../sass/screen.scss */
+.taquillaWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .tiendaWrapper {
   position: absolute;
   top: 36.5%;
   left: 64%;
   width: 7%;
+  background: url("../images/tiendaSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 161, ../sass/screen.scss */
-.tiendaWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 164, ../sass/screen.scss */
-.tiendaWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 209, ../sass/screen.scss */
+.tiendaWrapper:hover {
+  background-position: 0 110%;
 }
 
-/* line 174, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .terrazaMotorWrapper {
   position: absolute;
   top: 40.5%;
   left: 22.5%;
   width: 7%;
+  background: url("../images/terrazaMotorSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 179, ../sass/screen.scss */
-.terrazaMotorWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 182, ../sass/screen.scss */
-.terrazaMotorWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 223, ../sass/screen.scss */
+.terrazaMotorWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 192, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .carpaClimatizadaWrapper {
   position: absolute;
   top: 40.5%;
-  left: 30.75%;
+  left: 30%;
   width: 6%;
+  background: url("../images/carpaClimatizadaSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 197, ../sass/screen.scss */
-.carpaClimatizadaWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 200, ../sass/screen.scss */
-.carpaClimatizadaWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 237, ../sass/screen.scss */
+.carpaClimatizadaWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 210, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 .pantallaGiganteWrapper {
   position: absolute;
   top: 48%;
   left: 26%;
   width: 6%;
+  background: url("../images/pantallaGiganteSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 215, ../sass/screen.scss */
-.pantallaGiganteWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 218, ../sass/screen.scss */
-.pantallaGiganteWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 251, ../sass/screen.scss */
+.pantallaGiganteWrapper:hover {
+  background-position: 0 110%;
 }
 
-/* line 228, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 .circuitoKartsWrapper {
   position: absolute;
   top: 42%;
   left: 37%;
   width: 30%;
+  background: url("../images/circuitoKartsSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 233, ../sass/screen.scss */
-.circuitoKartsWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 236, ../sass/screen.scss */
-.circuitoKartsWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 265, ../sass/screen.scss */
+.circuitoKartsWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 246, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .terrazaKidsWrapper {
   position: absolute;
   top: 47.5%;
   left: 72.2%;
   width: 14%;
+  background: url("../images/terrazaKidsSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 251, ../sass/screen.scss */
-.terrazaKidsWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 254, ../sass/screen.scss */
-.terrazaKidsWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 279, ../sass/screen.scss */
+.terrazaKidsWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 264, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 .WCWrapper {
   position: absolute;
   top: 42.5%;
   left: 66.5%;
   width: 7.5%;
+  background: url("../images/WCSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 269, ../sass/screen.scss */
-.WCWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 272, ../sass/screen.scss */
-.WCWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 293, ../sass/screen.scss */
+.WCWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 282, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 .rockodromoWrapper {
   position: absolute;
   top: 44.5%;
   left: 21.5%;
   width: 7.5%;
+  background: url("../images/rockodromoSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 287, ../sass/screen.scss */
-.rockodromoWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 290, ../sass/screen.scss */
-.rockodromoWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 307, ../sass/screen.scss */
+.rockodromoWrapper:hover {
+  background-position: 0 107%;
 }
 
-/* line 300, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 .barWrapper {
   position: absolute;
   top: 49%;
   left: 16.25%;
   width: 16%;
+  background: url("../images/barSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 305, ../sass/screen.scss */
-.barWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 308, ../sass/screen.scss */
-.barWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 321, ../sass/screen.scss */
+.barWrapper:hover {
+  background-position: 0 110%;
 }
 
-/* line 318, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .camasElasticasWrapper {
   position: absolute;
   top: 52.25%;
   left: 34.25%;
   width: 12%;
+  background: url("../images/camasElasticasSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 323, ../sass/screen.scss */
-.camasElasticasWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 326, ../sass/screen.scss */
-.camasElasticasWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 335, ../sass/screen.scss */
+.camasElasticasWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 336, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 .hinchablesWrapper {
   position: absolute;
   top: 46%;
   left: 46%;
   width: 25%;
+  background: url("../images/hinchablesSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 341, ../sass/screen.scss */
-.hinchablesWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 344, ../sass/screen.scss */
-.hinchablesWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 349, ../sass/screen.scss */
+.hinchablesWrapper:hover {
+  background-position: 0 102%;
 }
 
 /* line 354, ../sass/screen.scss */
@@ -509,180 +427,144 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 45.5%;
   left: 61%;
   width: 8%;
+  background: url("../images/castilloInfantilSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 359, ../sass/screen.scss */
-.castilloInfantilWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 362, ../sass/screen.scss */
-.castilloInfantilWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 363, ../sass/screen.scss */
+.castilloInfantilWrapper:hover {
+  background-position: 0 115%;
 }
 
-/* line 372, ../sass/screen.scss */
+/* line 368, ../sass/screen.scss */
 .canetaBlancaSoloWrapper {
   position: absolute;
   top: 50.5%;
   left: 70%;
   width: 5.25%;
 }
-/* line 377, ../sass/screen.scss */
+/* line 373, ../sass/screen.scss */
 .canetaBlancaSoloWrapper img {
   width: 100%;
   height: auto;
 }
 
-/* line 383, ../sass/screen.scss */
+/* line 379, ../sass/screen.scss */
 .tentWrapper {
   position: absolute;
   top: 57%;
   left: 21.5%;
   width: 7%;
+  background: url("../images/tentSprite.png") no-repeat;
+  background-size: 100%;
 }
 /* line 388, ../sass/screen.scss */
-.tentWrapper img {
-  width: 100%;
-  height: auto;
+.tentWrapper:hover {
+  background-position: 0 114%;
 }
 
-/* line 394, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 .pistaFutbolWrapper {
   position: absolute;
   top: 56.5%;
   left: 26.75%;
   width: 17.5%;
-}
-/* line 399, ../sass/screen.scss */
-.pistaFutbolWrapper img {
-  width: 100%;
-  height: auto;
+  background: url("../images/pistaFutbolSprite.png") no-repeat;
+  background-size: 100%;
 }
 /* line 402, ../sass/screen.scss */
-.pistaFutbolWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+.pistaFutbolWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 412, ../sass/screen.scss */
+/* line 407, ../sass/screen.scss */
 .pistaVoleyPlayaWrapper {
   position: absolute;
   top: 56.5%;
   left: 45.5%;
   width: 16%;
+  background: url("../images/pistaVoleyPlayaSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 417, ../sass/screen.scss */
-.pistaVoleyPlayaWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 420, ../sass/screen.scss */
-.pistaVoleyPlayaWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 416, ../sass/screen.scss */
+.pistaVoleyPlayaWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 430, ../sass/screen.scss */
+/* line 421, ../sass/screen.scss */
 .billardsWrapper {
   position: absolute;
   top: 56%;
   left: 71%;
   width: 6%;
+  background: url("../images/billardsSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 435, ../sass/screen.scss */
-.billardsWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 438, ../sass/screen.scss */
-.billardsWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 430, ../sass/screen.scss */
+.billardsWrapper:hover {
+  background-position: 0 104%;
 }
 
-/* line 448, ../sass/screen.scss */
+/* line 435, ../sass/screen.scss */
 .skateparkWrapper {
   position: absolute;
   top: 65%;
   left: 13%;
   width: 25%;
+  background: url("../images/skateparkSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 453, ../sass/screen.scss */
-.skateparkWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 456, ../sass/screen.scss */
-.skateparkWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 444, ../sass/screen.scss */
+.skateparkWrapper:hover {
+  background-position: 0 110%;
 }
 
-/* line 466, ../sass/screen.scss */
+/* line 449, ../sass/screen.scss */
 .pumpTrackWrapper {
   position: absolute;
   top: 67%;
-  left: 39%;
+  left: 38.5%;
   width: 16%;
-  z-index: 2;
+  z-index: 3;
+  background: url("../images/pumpTrackSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 472, ../sass/screen.scss */
-.pumpTrackWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 475, ../sass/screen.scss */
-.pumpTrackWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 459, ../sass/screen.scss */
+.pumpTrackWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 485, ../sass/screen.scss */
+/* line 464, ../sass/screen.scss */
 .iniciacionSkateWrapper {
   position: absolute;
   top: 72%;
   left: 37%;
   width: 16%;
+  background: url("../images/iniciacionSkateSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 490, ../sass/screen.scss */
-.iniciacionSkateWrapper img {
-  width: 100%;
-  height: auto;
+/* line 473, ../sass/screen.scss */
+.iniciacionSkateWrapper:hover {
+  background-position: 0 105%;
 }
-/* line 493, ../sass/screen.scss */
-.iniciacionSkateWrapper img:hover {
-  background-color: #6CF8B0;
+
+/* line 478, ../sass/screen.scss */
+.camasElasticas2Wrapper {
+  position: absolute;
+  top: 76%;
+  left: 34%;
+  width: 7%;
+  background: url("../images/camasElasticas2Sprite.png") no-repeat;
+  background-size: 100%;
+}
+/* line 487, ../sass/screen.scss */
+.camasElasticas2Wrapper:hover {
+  background-position: 0 110%;
+}
+
+/*-----FIX THIS ----*/
+/* line 494, ../sass/screen.scss */
+.camasElasticas img:hover + .camasElasticas2 img:hover {
+  background-color: red;
   transform: translate(0.5vh, -0.5vh);
   -ms-transform: translate(0.5vh, -0.5vh);
   -webkit-transform: translate(0.5vh, -0.5vh);
@@ -692,107 +574,60 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 503, ../sass/screen.scss */
-.camasElasticas2Wrapper {
-  position: absolute;
-  top: 76%;
-  left: 34%;
-  width: 7%;
-}
-/* line 508, ../sass/screen.scss */
-.camasElasticas2Wrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 511, ../sass/screen.scss */
-.camasElasticas2Wrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/*-----FIX THIS ----*/
-/* line 523, ../sass/screen.scss */
-.camasElasticas:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* line 532, ../sass/screen.scss */
 .minirampWrapper {
   position: absolute;
-  top: 77%;
+  top: 76%;
   left: 42%;
-  width: 14%;
+  width: 17%;
+  z-index: 2;
+  background: url("../images/minirampSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 537, ../sass/screen.scss */
-.minirampWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 540, ../sass/screen.scss */
-.minirampWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 513, ../sass/screen.scss */
+.minirampWrapper:hover {
+  background-position: 0 100%;
 }
 
-/* line 550, ../sass/screen.scss */
+/* line 518, ../sass/screen.scss */
 .raceBMXWrapper {
   position: absolute;
   top: 67%;
   left: 53.5%;
   width: 26%;
   z-index: 1;
+  background: url("../images/raceBMXSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 556, ../sass/screen.scss */
-.raceBMXWrapper img {
-  width: 100%;
-  height: auto;
-}
-/* line 559, ../sass/screen.scss */
-.raceBMXWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+/* line 528, ../sass/screen.scss */
+.raceBMXWrapper:hover {
+  background-position: 0 105%;
 }
 
-/* line 569, ../sass/screen.scss */
+/* line 533, ../sass/screen.scss */
 .bigAirFoamPitWrapper {
   position: absolute;
   top: 60%;
   left: 68%;
   width: 19%;
   z-index: 2;
+  background: url("../images/bigAirFoamPitSprite.png") no-repeat;
+  background-size: 100%;
 }
-/* line 575, ../sass/screen.scss */
-.bigAirFoamPitWrapper img {
-  width: 100%;
-  height: auto;
+/* line 543, ../sass/screen.scss */
+.bigAirFoamPitWrapper:hover {
+  background-position: 0 105%;
 }
-/* line 578, ../sass/screen.scss */
-.bigAirFoamPitWrapper img:hover {
-  background-color: #6CF8B0;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+
+/* line 548, ../sass/screen.scss */
+.terrazaFreestyleWrapper {
+  position: absolute;
+  top: 80.5%;
+  left: 33%;
+  width: 19%;
+  background: url("../images/terrazaFreestyleSprite.png") no-repeat;
+  background-size: 100%;
+}
+/* line 557, ../sass/screen.scss */
+.terrazaFreestyleWrapper:hover {
+  background-position: 0 105%;
 }

@@ -7,6 +7,62 @@
 @import "compass/css3";
 @import "compass/utilities";
 
+%move{
+	&:hover{
+		z-index:4;
+		transform:translate(0.5vh,-0.5vh);
+		-ms-transform:translate(0.5vh,-0.5vh);
+		-webkit-transform:translate(0.5vh,-0.5vh);
+	}
+}
+%span{
+	&:hover{
+				.description{
+					left:100%;
+					top:-60%;
+					background-color: #ffffff;
+					@include border-radius(30px);
+					@include box-shadow(#949194 2px 2px 10px);
+					height: 12vh;
+					width: 50vh;
+					z-index:50;
+					img{
+						visibility: visible !important;
+						float:left;
+						height: 50px;
+						width: 50px;
+						padding: 5%;
+
+					}
+					h3{
+						padding:2%;
+						font-size: 1.5em;
+					}
+					p{
+						padding: 0 5%;
+
+					}
+				}
+	}
+	span{
+		img{
+			width: 100%;
+			height: auto;
+			visibility:hidden !important;
+			&:hover{
+				/*background-color:#6CF8B0;*/
+				@include border-radius(5px);
+			}
+		}		
+	}
+	.description{
+		position:absolute;
+		left: -9999px;
+		background-color: #ffffff;	
+		z-index:50;
+	}
+}
+
 
 #ground{
 	background-image: url('../images/ground.png');
@@ -27,21 +83,33 @@
 
 }
 
+.salidasWrapper{
+	position:absolute;
+	top: 27%;
+	left: 17%;
+	width: 67%;
+	img{
+		width: 100%;
+		height: auto;
+		&:hover{
+			transform:translate(0.5vh,-0.5vh);
+			-ms-transform:translate(0.5vh,-0.5vh);
+			-webkit-transform:translate(0.5vh,-0.5vh);
+		}
+	}
+}
+
 .terrazaMiradoresWrapper{
 	position:absolute;
 	top:31%;
 	left: 45.75%;
 	width:8.75%;	
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/terrazaMiradoresSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -50,16 +118,12 @@
 	top:36%;
 	left: 34.75%;
 	width:8.75%;	
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/circuitoQuadsSprite.png') no-repeat;
+	background-size:100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -68,16 +132,12 @@
 	top: 36%;
 	left: 42.75%;
 	width: 7%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/circuitoVipersSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -86,16 +146,12 @@
 	top: 36%;
 	left: 49.8%;
 	width: 7%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/circuitoMotoTrialInfantilSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 106%;
 	}
 }
 
@@ -104,16 +160,12 @@
 	top: 35.75%;
 	left: 54.8%;
 	width: 6%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/simuladoresCarrerasSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -122,16 +174,12 @@
 	top: 36.5%;
 	left: 59.8%;
 	width: 5%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/slotNincoSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 107%;
 	}
 }
 
@@ -140,16 +188,12 @@
 	top: 26.5%;
 	left: 63%;
 	width: 8%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/taquillaSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -158,16 +202,12 @@
 	top: 36.5%;
 	left: 64%;
 	width: 7%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/tiendaSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 110%;
 	}
 }
 
@@ -176,34 +216,26 @@
 	top: 40.5%;
 	left: 22.5%;
 	width: 7%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/terrazaMotorSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
 .carpaClimatizadaWrapper{
 	position:absolute;
 	top: 40.5%;
-	left: 30.75%;
+	left: 30%;
 	width: 6%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/carpaClimatizadaSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -212,16 +244,12 @@
 	top: 48%;
 	left: 26%;
 	width: 6%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/pantallaGiganteSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 110%;
 	}
 }
 
@@ -230,16 +258,12 @@
 	top: 42%;
 	left: 37%;
 	width: 30%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/circuitoKartsSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -248,16 +272,12 @@
 	top: 47.5%;
 	left: 72.2%;
 	width: 14%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/terrazaKidsSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -266,16 +286,12 @@
 	top: 42.5%;
 	left: 66.5%;
 	width: 7.5%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/WCSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -284,16 +300,12 @@
 	top: 44.5%;
 	left: 21.5%;
 	width: 7.5%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/rockodromoSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 107%;
 	}
 }
 
@@ -302,16 +314,12 @@
 	top: 49%;
 	left: 16.25%;
 	width: 16%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/barSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 110%;
 	}
 }
 
@@ -320,16 +328,12 @@
 	top: 52.25%;
 	left: 34.25%;
 	width: 12%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/camasElasticasSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -338,16 +342,12 @@
 	top: 46%;
 	left: 46%;
 	width: 25%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/hinchablesSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 102%;
 	}
 }
 
@@ -356,16 +356,12 @@
 	top: 45.5%;
 	left: 61%;
 	width: 8%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/castilloInfantilSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 115%;
 	}
 }
 
@@ -385,9 +381,12 @@
 	top: 57%;
 	left: 21.5%;
 	width: 7%;
-	img{
-		width: 100%;
-		height: auto;
+	@extend %span;
+	@extend %move;
+	background: url('../images/tentSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 114%;
 	}
 }
 
@@ -396,16 +395,12 @@
 	top: 56.5%;
 	left: 26.75%;
 	width: 17.5%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/pistaFutbolSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -414,16 +409,12 @@
 	top: 56.5%;
 	left: 45.5%;
 	width: 16%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/pistaVoleyPlayaSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -432,16 +423,12 @@
 	top: 56%;
 	left: 71%;
 	width: 6%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/billardsSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 104%;
 	}
 }
 
@@ -450,35 +437,27 @@
 	top: 65%;
 	left: 13%;
 	width: 25%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/skateparkSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 110%;
 	}
 }
 
 .pumpTrackWrapper{
 	position:absolute;
 	top: 67%;
-	left: 39%;
+	left: 38.5%;
 	width: 16%;
-	z-index:2;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	z-index:3;
+	@extend %span;
+	@extend %move;
+	background: url('../images/pumpTrackSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -487,16 +466,12 @@
 	top: 72%;
 	left: 37%;
 	width: 16%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/iniciacionSkateSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -505,23 +480,19 @@
 	top: 76%;
 	left: 34%;
 	width: 7%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/camasElasticas2Sprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 110%;
 	}
 }
 
 /*-----FIX THIS ----*/
 
-.camasElasticas:hover{
-			background-color:#6CF8B0;
+.camasElasticas img:hover + .camasElasticas2 img:hover{
+			background-color:red;
 			transform:translate(0.5vh,-0.5vh);
 			-ms-transform:translate(0.5vh,-0.5vh);
 			-webkit-transform:translate(0.5vh,-0.5vh);
@@ -531,19 +502,16 @@
 
 .minirampWrapper{
 	position:absolute;
-	top: 77%;
+	top: 76%;
 	left: 42%;
-	width: 14%;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	width: 17%;
+	z-index:2;
+	@extend %span;
+	@extend %move;
+	background: url('../images/minirampSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 100%;
 	}
 }
 
@@ -553,16 +521,12 @@
 	left: 53.5%;
 	width: 26%;
 	z-index:1;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/raceBMXSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
@@ -572,17 +536,26 @@
 	left: 68%;
 	width: 19%;
 	z-index:2;
-	img{
-		width: 100%;
-		height: auto;
-		&:hover{
-			background-color:#6CF8B0;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-		}
+	@extend %span;
+	@extend %move;
+	background: url('../images/bigAirFoamPitSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
 	}
 }
 
+.terrazaFreestyleWrapper{
+	position:absolute;
+	top: 80.5%;
+	left: 33%;
+	width: 19%;
+	@extend %span;
+	@extend %move;
+	background: url('../images/terrazaFreestyleSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 105%;
+	}
+}
 
