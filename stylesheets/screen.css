@@ -106,22 +106,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 42, ../sass/screen.scss */
 .terrazaMiradoresWrapper:hover .description p, .circuitoQuadsWrapper:hover .description p, .circuitoVipersWrapper:hover .description p, .circuitoMotoTrialInfantilWrapper:hover .description p, .simuladoresCarrerasWrapper:hover .description p, .slotNincoWrapper:hover .description p, .taquillaWrapper:hover .description p, .tiendaWrapper:hover .description p, .terrazaMotorWrapper:hover .description p, .carpaClimatizadaWrapper:hover .description p, .pantallaGiganteWrapper:hover .description p, .circuitoKartsWrapper:hover .description p, .terrazaKidsWrapper:hover .description p, .WCWrapper:hover .description p, .rockodromoWrapper:hover .description p, .barWrapper:hover .description p, .camasElasticasWrapper:hover .description p, .hinchablesWrapper:hover .description p, .castilloInfantilWrapper:hover .description p, .tentWrapper:hover .description p, .pistaFutbolWrapper:hover .description p, .pistaVoleyPlayaWrapper:hover .description p, .billardsWrapper:hover .description p, .skateparkWrapper:hover .description p, .pumpTrackWrapper:hover .description p, .iniciacionSkateWrapper:hover .description p, .camasElasticas2Wrapper:hover .description p, .minirampWrapper:hover .description p, .raceBMXWrapper:hover .description p, .bigAirFoamPitWrapper:hover .description p, .terrazaFreestyleWrapper:hover .description p {
+  font-size: 1em;
   padding: 0 5%;
 }
-/* line 49, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 .terrazaMiradoresWrapper span img, .circuitoQuadsWrapper span img, .circuitoVipersWrapper span img, .circuitoMotoTrialInfantilWrapper span img, .simuladoresCarrerasWrapper span img, .slotNincoWrapper span img, .taquillaWrapper span img, .tiendaWrapper span img, .terrazaMotorWrapper span img, .carpaClimatizadaWrapper span img, .pantallaGiganteWrapper span img, .circuitoKartsWrapper span img, .terrazaKidsWrapper span img, .WCWrapper span img, .rockodromoWrapper span img, .barWrapper span img, .camasElasticasWrapper span img, .hinchablesWrapper span img, .castilloInfantilWrapper span img, .tentWrapper span img, .pistaFutbolWrapper span img, .pistaVoleyPlayaWrapper span img, .billardsWrapper span img, .skateparkWrapper span img, .pumpTrackWrapper span img, .iniciacionSkateWrapper span img, .camasElasticas2Wrapper span img, .minirampWrapper span img, .raceBMXWrapper span img, .bigAirFoamPitWrapper span img, .terrazaFreestyleWrapper span img {
   width: 100%;
   height: auto;
   visibility: hidden !important;
 }
-/* line 53, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .terrazaMiradoresWrapper span img:hover, .circuitoQuadsWrapper span img:hover, .circuitoVipersWrapper span img:hover, .circuitoMotoTrialInfantilWrapper span img:hover, .simuladoresCarrerasWrapper span img:hover, .slotNincoWrapper span img:hover, .taquillaWrapper span img:hover, .tiendaWrapper span img:hover, .terrazaMotorWrapper span img:hover, .carpaClimatizadaWrapper span img:hover, .pantallaGiganteWrapper span img:hover, .circuitoKartsWrapper span img:hover, .terrazaKidsWrapper span img:hover, .WCWrapper span img:hover, .rockodromoWrapper span img:hover, .barWrapper span img:hover, .camasElasticasWrapper span img:hover, .hinchablesWrapper span img:hover, .castilloInfantilWrapper span img:hover, .tentWrapper span img:hover, .pistaFutbolWrapper span img:hover, .pistaVoleyPlayaWrapper span img:hover, .billardsWrapper span img:hover, .skateparkWrapper span img:hover, .pumpTrackWrapper span img:hover, .iniciacionSkateWrapper span img:hover, .camasElasticas2Wrapper span img:hover, .minirampWrapper span img:hover, .raceBMXWrapper span img:hover, .bigAirFoamPitWrapper span img:hover, .terrazaFreestyleWrapper span img:hover {
   /*background-color:#6CF8B0;*/
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 59, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .terrazaMiradoresWrapper .description, .circuitoQuadsWrapper .description, .circuitoVipersWrapper .description, .circuitoMotoTrialInfantilWrapper .description, .simuladoresCarrerasWrapper .description, .slotNincoWrapper .description, .taquillaWrapper .description, .tiendaWrapper .description, .terrazaMotorWrapper .description, .carpaClimatizadaWrapper .description, .pantallaGiganteWrapper .description, .circuitoKartsWrapper .description, .terrazaKidsWrapper .description, .WCWrapper .description, .rockodromoWrapper .description, .barWrapper .description, .camasElasticasWrapper .description, .hinchablesWrapper .description, .castilloInfantilWrapper .description, .tentWrapper .description, .pistaFutbolWrapper .description, .pistaVoleyPlayaWrapper .description, .billardsWrapper .description, .skateparkWrapper .description, .pumpTrackWrapper .description, .iniciacionSkateWrapper .description, .camasElasticas2Wrapper .description, .minirampWrapper .description, .raceBMXWrapper .description, .bigAirFoamPitWrapper .description, .terrazaFreestyleWrapper .description {
   position: absolute;
   left: -9999px;
@@ -129,7 +130,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 50;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 #ground {
   background-image: url("../images/ground.png");
   background-repeat: no-repeat;
@@ -142,7 +143,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 10em;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .attractionsWrapper {
   position: relative;
   width: 100%;
@@ -151,26 +152,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   clear: none;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .salidasWrapper {
   position: absolute;
   top: 27%;
   left: 17%;
   width: 67%;
 }
-/* line 92, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .salidasWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 95, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .salidasWrapper img:hover {
   transform: translate(0.5vh, -0.5vh);
   -ms-transform: translate(0.5vh, -0.5vh);
   -webkit-transform: translate(0.5vh, -0.5vh);
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .terrazaMiradoresWrapper {
   position: absolute;
   top: 31.5%;
@@ -179,12 +180,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/terrazaMiradoresSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 112, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .terrazaMiradoresWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .circuitoQuadsWrapper {
   position: absolute;
   top: 36%;
@@ -193,12 +194,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/circuitoQuadsSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 126, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .circuitoQuadsWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 131, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .circuitoVipersWrapper {
   position: absolute;
   top: 36%;
@@ -207,12 +208,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/circuitoVipersSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 140, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .circuitoVipersWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 145, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .circuitoMotoTrialInfantilWrapper {
   position: absolute;
   top: 36%;
@@ -221,12 +222,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/circuitoMotoTrialInfantilSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 154, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .circuitoMotoTrialInfantilWrapper:hover {
   background-position: 0 106%;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .simuladoresCarrerasWrapper {
   position: absolute;
   top: 35.75%;
@@ -235,12 +236,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/simuladoresCarrerasSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 168, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 .simuladoresCarrerasWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 173, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .slotNincoWrapper {
   position: absolute;
   top: 36.5%;
@@ -249,12 +250,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/slotNincoSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 182, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .slotNincoWrapper:hover {
   background-position: 0 107%;
 }
 
-/* line 187, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 .taquillaWrapper {
   position: absolute;
   top: 26.5%;
@@ -263,12 +264,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/taquillaSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 196, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 .taquillaWrapper:hover {
   background-position: 0 100%;
 }
 
-/* line 201, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .tiendaWrapper {
   position: absolute;
   top: 36.5%;
@@ -277,12 +278,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/tiendaSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 210, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .tiendaWrapper:hover {
   background-position: 0 104%;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .terrazaMotorWrapper {
   position: absolute;
   top: 40.5%;
@@ -291,12 +292,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/terrazaMotorSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 224, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 .terrazaMotorWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 229, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .carpaClimatizadaWrapper {
   position: absolute;
   top: 40.5%;
@@ -305,12 +306,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/carpaClimatizadaSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 238, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .carpaClimatizadaWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 243, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .pantallaGiganteWrapper {
   position: absolute;
   top: 48%;
@@ -319,12 +320,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/pantallaGiganteSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 252, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 .pantallaGiganteWrapper:hover {
   background-position: 0 110%;
 }
 
-/* line 257, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 .circuitoKartsWrapper {
   position: absolute;
   top: 42%;
@@ -333,12 +334,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/circuitoKartsSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 266, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .circuitoKartsWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 271, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .terrazaKidsWrapper {
   position: absolute;
   top: 47.5%;
@@ -347,12 +348,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/terrazaKidsSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 280, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .terrazaKidsWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 285, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .WCWrapper {
   position: absolute;
   top: 42.5%;
@@ -361,12 +362,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/WCSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 294, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .WCWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 299, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .rockodromoWrapper {
   position: absolute;
   top: 44.5%;
@@ -375,12 +376,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/rockodromoSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 308, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 .rockodromoWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 313, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 .barWrapper {
   position: absolute;
   top: 49%;
@@ -389,12 +390,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/barSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 322, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 .barWrapper:hover {
   background-position: 0 110%;
 }
 
-/* line 327, ../sass/screen.scss */
+/* line 328, ../sass/screen.scss */
 .camasElasticasWrapper {
   position: absolute;
   top: 52.25%;
@@ -403,12 +404,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/camasElasticasSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 336, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 .camasElasticasWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 341, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 .hinchablesWrapper {
   position: absolute;
   top: 46%;
@@ -417,12 +418,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/hinchablesSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 350, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
 .hinchablesWrapper:hover {
   background-position: 0 102%;
 }
 
-/* line 355, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 .castilloInfantilWrapper {
   position: absolute;
   top: 45.5%;
@@ -432,25 +433,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/castilloInfantilSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 365, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 .castilloInfantilWrapper:hover {
   background-position: 0 115%;
 }
 
-/* line 370, ../sass/screen.scss */
+/* line 371, ../sass/screen.scss */
 .canetaBlancaSoloWrapper {
   position: absolute;
   top: 50.5%;
   left: 70%;
   width: 5.25%;
 }
-/* line 375, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .canetaBlancaSoloWrapper img {
   width: 100%;
   height: auto;
 }
 
-/* line 381, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 .tentWrapper {
   position: absolute;
   top: 57%;
@@ -459,12 +460,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/tentSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 390, ../sass/screen.scss */
+/* line 391, ../sass/screen.scss */
 .tentWrapper:hover {
   background-position: 0 114%;
 }
 
-/* line 395, ../sass/screen.scss */
+/* line 396, ../sass/screen.scss */
 .pistaFutbolWrapper {
   position: absolute;
   top: 56.5%;
@@ -473,12 +474,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/pistaFutbolSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 404, ../sass/screen.scss */
+/* line 405, ../sass/screen.scss */
 .pistaFutbolWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 409, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 .pistaVoleyPlayaWrapper {
   position: absolute;
   top: 56.5%;
@@ -487,12 +488,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/pistaVoleyPlayaSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 418, ../sass/screen.scss */
+/* line 419, ../sass/screen.scss */
 .pistaVoleyPlayaWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 423, ../sass/screen.scss */
+/* line 424, ../sass/screen.scss */
 .billardsWrapper {
   position: absolute;
   top: 56%;
@@ -501,12 +502,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/billardsSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 432, ../sass/screen.scss */
+/* line 433, ../sass/screen.scss */
 .billardsWrapper:hover {
   background-position: 0 100%;
 }
 
-/* line 437, ../sass/screen.scss */
+/* line 438, ../sass/screen.scss */
 .skateparkWrapper {
   position: absolute;
   top: 65%;
@@ -515,12 +516,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/skateparkSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 446, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 .skateparkWrapper:hover {
   background-position: 0 100%;
 }
 
-/* line 451, ../sass/screen.scss */
+/* line 452, ../sass/screen.scss */
 .pumpTrackWrapper {
   position: absolute;
   top: 67%;
@@ -530,12 +531,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/pumpTrackSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 461, ../sass/screen.scss */
+/* line 462, ../sass/screen.scss */
 .pumpTrackWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 466, ../sass/screen.scss */
+/* line 467, ../sass/screen.scss */
 .iniciacionSkateWrapper {
   position: absolute;
   top: 72%;
@@ -544,12 +545,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/iniciacionSkateSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 475, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 .iniciacionSkateWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 480, ../sass/screen.scss */
+/* line 481, ../sass/screen.scss */
 .camasElasticas2Wrapper {
   position: absolute;
   top: 76%;
@@ -558,13 +559,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/camasElasticas2Sprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 489, ../sass/screen.scss */
+/* line 490, ../sass/screen.scss */
 .camasElasticas2Wrapper:hover {
   background-position: 0 105%;
 }
 
 /*-----FIX THIS ----*/
-/* line 496, ../sass/screen.scss */
+/* line 497, ../sass/screen.scss */
 .camasElasticas img:hover + .camasElasticas2 img:hover {
   background-color: red;
   transform: translate(0.5vh, -0.5vh);
@@ -575,7 +576,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 5px;
 }
 
-/* line 505, ../sass/screen.scss */
+/* line 506, ../sass/screen.scss */
 .minirampWrapper {
   position: absolute;
   top: 75%;
@@ -585,12 +586,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/minirampSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 515, ../sass/screen.scss */
+/* line 516, ../sass/screen.scss */
 .minirampWrapper:hover {
   background-position: 0 111%;
 }
 
-/* line 520, ../sass/screen.scss */
+/* line 521, ../sass/screen.scss */
 .raceBMXWrapper {
   position: absolute;
   top: 67%;
@@ -600,12 +601,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/raceBMXSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 530, ../sass/screen.scss */
+/* line 531, ../sass/screen.scss */
 .raceBMXWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 535, ../sass/screen.scss */
+/* line 536, ../sass/screen.scss */
 .bigAirFoamPitWrapper {
   position: absolute;
   top: 60%;
@@ -615,12 +616,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/bigAirFoamPitSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 545, ../sass/screen.scss */
+/* line 546, ../sass/screen.scss */
 .bigAirFoamPitWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 550, ../sass/screen.scss */
+/* line 551, ../sass/screen.scss */
 .terrazaFreestyleWrapper {
   position: absolute;
   top: 80.5%;
@@ -629,7 +630,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../images/terrazaFreestyleSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 559, ../sass/screen.scss */
+/* line 560, ../sass/screen.scss */
 .terrazaFreestyleWrapper:hover {
   background-position: 0 105%;
 }
