@@ -19,14 +19,14 @@
 %span{
 	&:hover{
 				.description{
-					left:12vh;
+					left:15vh;
 					top:-20vh;
 					background-color: #ffffff;
 					@include border-radius(30px);
 					@include box-shadow(#949194 2px 2px 10px);
 					@include background-size(auto);
 					background-size: 100% 100%;
-					z-index:50;
+					z-index:0;
 					opacity:0.8;
 					text-align:center;
 					a{
@@ -105,17 +105,19 @@ body{
 	img{
 		width: 100%;
 		height: auto;
+		-webkit-transition: width 0.5s;
+		-ms-transition: width 0.5s;
+		-o-transition: width 0.5s;
+		transition: width 0.5s;
 		&:hover{
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
+			width:110%;
 		}
 	}
 }
 
 .terrazaMiradoresWrapper{
 	position:absolute;
-	top:31.5%;
+	top:31.75%;
 	left: 45.75%;
 	width:8.75%;	
 	@extend %span;
@@ -227,7 +229,7 @@ body{
 .terrazaMotorWrapper{
 	position:absolute;
 	top: 40.5%;
-	left: 22.5%;
+	left: 22.2%;
 	width: 7%;
 	@extend %span;
 	background: url('../images/terrazaMotorSprite.png') no-repeat;
@@ -284,12 +286,14 @@ body{
 	top: 47.5%;
 	left: 72.2%;
 	width: 14%;
+	z-index:1;
 	@extend %span;
 	@extend %move;
 	background: url('../images/terrazaKidsSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
-		background-position: 0 105%;
+		background-position: 0 100%;
+		z-index:1;
 	}
 }
 
@@ -319,6 +323,9 @@ body{
 	&:hover{
 		background-position: 0 105%;
 	}
+	img{
+		padding:1%;
+	}
 }
 
 .barWrapper{
@@ -346,6 +353,9 @@ body{
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
+	}
+	img{
+		padding:1%;
 	}
 }
 
@@ -383,10 +393,17 @@ body{
 	top: 50.5%;
 	left: 70%;
 	width: 5.25%;
-	z-index:7;
+	@extend %span;
+	@extend %move;
+	z-index:3;
 	img{
 		width: 100%;
 		height: auto;
+	}
+	background: url('../images/canetaBlancaSoloSprite.png') no-repeat;
+	background-size: 100%;
+	&:hover{
+		background-position: 0 100%;
 	}
 }
 
@@ -437,7 +454,7 @@ body{
 	top: 54%;
 	left: 68%;
 	width: 6%;
-	z-index:10020;
+	z-index:2;
 	@extend %span;
 	@extend %move;
 	background: url('../images/billardsSprite.png') no-repeat;
@@ -474,6 +491,9 @@ body{
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
+	}
+	img{
+		padding:1%;
 	}
 }
 
@@ -570,7 +590,7 @@ body{
 	background: url('../images/terrazaFreestyleSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
-		background-position: 0 100%;
+		background-position: 0 103%;
 	}
 }
 
