@@ -119,11 +119,10 @@ body{
 	left: 45.75%;
 	width:8.75%;	
 	@extend %span;
-	@extend %move;
 	background: url('../images/terrazaMiradoresSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
-		background-position: 0 105%;
+		background-position: 0 90%;
 	}
 }
 
@@ -231,7 +230,6 @@ body{
 	left: 22.5%;
 	width: 7%;
 	@extend %span;
-	@extend %move;
 	background: url('../images/terrazaMotorSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
@@ -385,6 +383,7 @@ body{
 	top: 50.5%;
 	left: 70%;
 	width: 5.25%;
+	z-index:7;
 	img{
 		width: 100%;
 		height: auto;
@@ -438,12 +437,14 @@ body{
 	top: 54%;
 	left: 68%;
 	width: 6%;
+	z-index:10020;
 	@extend %span;
 	@extend %move;
 	background: url('../images/billardsSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 100%;
+		z-index:10;
 	}
 }
 
@@ -566,11 +567,10 @@ body{
 	left: 33%;
 	width: 19%;
 	@extend %span;
-	@extend %move;
 	background: url('../images/terrazaFreestyleSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
-		background-position: 0 105%;
+		background-position: 0 100%;
 	}
 }
 
