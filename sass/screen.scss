@@ -13,35 +13,42 @@
 		transform:translate(0.5vh,-0.5vh);
 		-ms-transform:translate(0.5vh,-0.5vh);
 		-webkit-transform:translate(0.5vh,-0.5vh);
+		-o-transform:translate(0.5vh,-0.5vh);
 	}
 }
 %span{
 	&:hover{
 				.description{
-					left:10vh;
-					top:-10vh;
+					left:12vh;
+					top:-20vh;
 					background-color: #ffffff;
 					@include border-radius(30px);
 					@include box-shadow(#949194 2px 2px 10px);
-					height: 12vh;
-					width: 50vh;
+					@include background-size(auto);
+					background-size: 100% 100%;
 					z-index:50;
 					opacity:0.8;
+					a{
+						margin: 0 auto;
+					}
 					img{
 						visibility: visible !important;
-						float:left;
-						height: 50px;
-						width: 50px;
+						height: 100%;
+						width: auto;
 						padding: 5%;
-
+						height: 20vh;
+						width:auto;
+						clear:both;
+						magin:0 auto;
 					}
 					h3{
-						padding:2%;
+						padding:5%;
 						font-size: 1.5em;
+						clear:left;
 					}
 					p{
 						font-size:1em;
-						padding: 0 5%;
+						padding: 0 5% 5% 5%;
 
 					}
 				}
@@ -65,6 +72,10 @@
 	}
 }
 
+
+body{
+	font-family:sans-serif;
+}
 
 #ground{
 	background-image: url('../images/ground.png');
@@ -360,7 +371,7 @@
 	width: 8%;
 	@extend %span;
 	@extend %move;
-	z-index:4;
+	z-index:2;
 	background: url('../images/castilloInfantilSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
