@@ -19,8 +19,8 @@
 %span{
 	&:hover{
 				.description{
-					left:15vh;
-					top:-20vh;
+					left:80%;
+					top:-200%;
 					background-color: #ffffff;
 					@include border-radius(30px);
 					@include box-shadow(#949194 2px 2px 10px);
@@ -231,11 +231,13 @@ body{
 	top: 40.5%;
 	left: 22.2%;
 	width: 7%;
+	z-index:1;
+	padding-top:1%;
 	@extend %span;
 	background: url('../images/terrazaMotorSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
-		background-position: 0 105%;
+		background-position: 0 112%;
 	}
 }
 
