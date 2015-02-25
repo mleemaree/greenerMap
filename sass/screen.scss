@@ -84,6 +84,7 @@ body{
 	@include background-size(contain);
 	height: 2000px;
 	width: auto;
+	margin:5em;
 
 }
 
@@ -352,7 +353,7 @@ body{
 
 .hinchablesWrapper{
 	position:absolute;
-	top: 46%;
+	top: 47.5%;
 	left: 46%;
 	width: 25%;
 	@extend %span;
@@ -366,7 +367,7 @@ body{
 
 .castilloInfantilWrapper{
 	position:absolute;
-	top: 45.5%;
+	top: 46.5%;
 	left: 61%;
 	width: 8%;
 	@extend %span;
