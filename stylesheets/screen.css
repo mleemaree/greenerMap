@@ -77,7 +77,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 21, ../sass/screen.scss */
-.terrazaMiradoresWrapper:hover .description, .circuitoQuadsWrapper:hover .description, .circuitoVipersWrapper:hover .description, .circuitoMotoTrialInfantilWrapper:hover .description, .simuladoresCarrerasWrapper:hover .description, .slotNincoWrapper:hover .description, .taquillaWrapper:hover .description, .tiendaWrapper:hover .description, .terrazaMotorWrapper:hover .description, .carpaClimatizadaWrapper:hover .description, .pantallaGiganteWrapper:hover .description, .circuitoKartsWrapper:hover .description, .terrazaKidsWrapper:hover .description, .WCWrapper:hover .description, .rockodromoWrapper:hover .description, .barWrapper:hover .description, .camasElasticasWrapper:hover .description, .hinchablesWrapper:hover .description, .castilloInfantilWrapper:hover .description, .canetaBlancaSoloWrapper:hover .description, .tentWrapper:hover .description, .pistaFutbolWrapper:hover .description, .pistaVoleyPlayaWrapper:hover .description, .billardsWrapper:hover .description, .skateparkWrapper:hover .description, .pumpTrackWrapper:hover .description, .iniciacionSkateWrapper:hover .description, .camasElasticas2Wrapper:hover .description, .minirampWrapper:hover .description, .raceBMXWrapper:hover .description, .bigAirFoamPitWrapper:hover .description, .terrazaFreestyleWrapper:hover .description {
+.terrazaMiradoresWrapper:hover .description, .circuitoMotoTrialInfantilWrapper:hover .description, .simuladoresCarrerasWrapper:hover .description, .slotNincoWrapper:hover .description, .taquillaWrapper:hover .description, .tiendaWrapper:hover .description, .circuitoKartsWrapper:hover .description, .terrazaKidsWrapper:hover .description, .WCWrapper:hover .description, .hinchablesWrapper:hover .description, .castilloInfantilWrapper:hover .description, .canetaBlancaSoloWrapper:hover .description, .pistaVoleyPlayaWrapper:hover .description, .billardsWrapper:hover .description, .minirampWrapper:hover .description, .raceBMXWrapper:hover .description, .bigAirFoamPitWrapper:hover .description, .terrazaFreestyleWrapper:hover .description {
   left: 80%;
   top: -200%;
   background-color: #ffffff;
@@ -97,11 +97,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 /* line 32, ../sass/screen.scss */
-.terrazaMiradoresWrapper:hover .description a, .circuitoQuadsWrapper:hover .description a, .circuitoVipersWrapper:hover .description a, .circuitoMotoTrialInfantilWrapper:hover .description a, .simuladoresCarrerasWrapper:hover .description a, .slotNincoWrapper:hover .description a, .taquillaWrapper:hover .description a, .tiendaWrapper:hover .description a, .terrazaMotorWrapper:hover .description a, .carpaClimatizadaWrapper:hover .description a, .pantallaGiganteWrapper:hover .description a, .circuitoKartsWrapper:hover .description a, .terrazaKidsWrapper:hover .description a, .WCWrapper:hover .description a, .rockodromoWrapper:hover .description a, .barWrapper:hover .description a, .camasElasticasWrapper:hover .description a, .hinchablesWrapper:hover .description a, .castilloInfantilWrapper:hover .description a, .canetaBlancaSoloWrapper:hover .description a, .tentWrapper:hover .description a, .pistaFutbolWrapper:hover .description a, .pistaVoleyPlayaWrapper:hover .description a, .billardsWrapper:hover .description a, .skateparkWrapper:hover .description a, .pumpTrackWrapper:hover .description a, .iniciacionSkateWrapper:hover .description a, .camasElasticas2Wrapper:hover .description a, .minirampWrapper:hover .description a, .raceBMXWrapper:hover .description a, .bigAirFoamPitWrapper:hover .description a, .terrazaFreestyleWrapper:hover .description a {
+.terrazaMiradoresWrapper:hover .description a, .circuitoMotoTrialInfantilWrapper:hover .description a, .simuladoresCarrerasWrapper:hover .description a, .slotNincoWrapper:hover .description a, .taquillaWrapper:hover .description a, .tiendaWrapper:hover .description a, .circuitoKartsWrapper:hover .description a, .terrazaKidsWrapper:hover .description a, .WCWrapper:hover .description a, .hinchablesWrapper:hover .description a, .castilloInfantilWrapper:hover .description a, .canetaBlancaSoloWrapper:hover .description a, .pistaVoleyPlayaWrapper:hover .description a, .billardsWrapper:hover .description a, .minirampWrapper:hover .description a, .raceBMXWrapper:hover .description a, .bigAirFoamPitWrapper:hover .description a, .terrazaFreestyleWrapper:hover .description a {
   margin: 0 auto;
 }
 /* line 35, ../sass/screen.scss */
-.terrazaMiradoresWrapper:hover .description img, .circuitoQuadsWrapper:hover .description img, .circuitoVipersWrapper:hover .description img, .circuitoMotoTrialInfantilWrapper:hover .description img, .simuladoresCarrerasWrapper:hover .description img, .slotNincoWrapper:hover .description img, .taquillaWrapper:hover .description img, .tiendaWrapper:hover .description img, .terrazaMotorWrapper:hover .description img, .carpaClimatizadaWrapper:hover .description img, .pantallaGiganteWrapper:hover .description img, .circuitoKartsWrapper:hover .description img, .terrazaKidsWrapper:hover .description img, .WCWrapper:hover .description img, .rockodromoWrapper:hover .description img, .barWrapper:hover .description img, .camasElasticasWrapper:hover .description img, .hinchablesWrapper:hover .description img, .castilloInfantilWrapper:hover .description img, .canetaBlancaSoloWrapper:hover .description img, .tentWrapper:hover .description img, .pistaFutbolWrapper:hover .description img, .pistaVoleyPlayaWrapper:hover .description img, .billardsWrapper:hover .description img, .skateparkWrapper:hover .description img, .pumpTrackWrapper:hover .description img, .iniciacionSkateWrapper:hover .description img, .camasElasticas2Wrapper:hover .description img, .minirampWrapper:hover .description img, .raceBMXWrapper:hover .description img, .bigAirFoamPitWrapper:hover .description img, .terrazaFreestyleWrapper:hover .description img {
+.terrazaMiradoresWrapper:hover .description img, .circuitoMotoTrialInfantilWrapper:hover .description img, .simuladoresCarrerasWrapper:hover .description img, .slotNincoWrapper:hover .description img, .taquillaWrapper:hover .description img, .tiendaWrapper:hover .description img, .circuitoKartsWrapper:hover .description img, .terrazaKidsWrapper:hover .description img, .WCWrapper:hover .description img, .hinchablesWrapper:hover .description img, .castilloInfantilWrapper:hover .description img, .canetaBlancaSoloWrapper:hover .description img, .pistaVoleyPlayaWrapper:hover .description img, .billardsWrapper:hover .description img, .minirampWrapper:hover .description img, .raceBMXWrapper:hover .description img, .bigAirFoamPitWrapper:hover .description img, .terrazaFreestyleWrapper:hover .description img {
   visibility: visible !important;
   height: 100%;
   width: auto;
@@ -112,56 +112,128 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   magin: 0 auto;
 }
 /* line 45, ../sass/screen.scss */
-.terrazaMiradoresWrapper:hover .description h3, .circuitoQuadsWrapper:hover .description h3, .circuitoVipersWrapper:hover .description h3, .circuitoMotoTrialInfantilWrapper:hover .description h3, .simuladoresCarrerasWrapper:hover .description h3, .slotNincoWrapper:hover .description h3, .taquillaWrapper:hover .description h3, .tiendaWrapper:hover .description h3, .terrazaMotorWrapper:hover .description h3, .carpaClimatizadaWrapper:hover .description h3, .pantallaGiganteWrapper:hover .description h3, .circuitoKartsWrapper:hover .description h3, .terrazaKidsWrapper:hover .description h3, .WCWrapper:hover .description h3, .rockodromoWrapper:hover .description h3, .barWrapper:hover .description h3, .camasElasticasWrapper:hover .description h3, .hinchablesWrapper:hover .description h3, .castilloInfantilWrapper:hover .description h3, .canetaBlancaSoloWrapper:hover .description h3, .tentWrapper:hover .description h3, .pistaFutbolWrapper:hover .description h3, .pistaVoleyPlayaWrapper:hover .description h3, .billardsWrapper:hover .description h3, .skateparkWrapper:hover .description h3, .pumpTrackWrapper:hover .description h3, .iniciacionSkateWrapper:hover .description h3, .camasElasticas2Wrapper:hover .description h3, .minirampWrapper:hover .description h3, .raceBMXWrapper:hover .description h3, .bigAirFoamPitWrapper:hover .description h3, .terrazaFreestyleWrapper:hover .description h3 {
+.terrazaMiradoresWrapper:hover .description .h3, .circuitoMotoTrialInfantilWrapper:hover .description .h3, .simuladoresCarrerasWrapper:hover .description .h3, .slotNincoWrapper:hover .description .h3, .taquillaWrapper:hover .description .h3, .tiendaWrapper:hover .description .h3, .circuitoKartsWrapper:hover .description .h3, .terrazaKidsWrapper:hover .description .h3, .WCWrapper:hover .description .h3, .hinchablesWrapper:hover .description .h3, .castilloInfantilWrapper:hover .description .h3, .canetaBlancaSoloWrapper:hover .description .h3, .pistaVoleyPlayaWrapper:hover .description .h3, .billardsWrapper:hover .description .h3, .minirampWrapper:hover .description .h3, .raceBMXWrapper:hover .description .h3, .bigAirFoamPitWrapper:hover .description .h3, .terrazaFreestyleWrapper:hover .description .h3 {
   padding: 5%;
   font-size: 1.5em;
   clear: left;
 }
 /* line 50, ../sass/screen.scss */
-.terrazaMiradoresWrapper:hover .description p, .circuitoQuadsWrapper:hover .description p, .circuitoVipersWrapper:hover .description p, .circuitoMotoTrialInfantilWrapper:hover .description p, .simuladoresCarrerasWrapper:hover .description p, .slotNincoWrapper:hover .description p, .taquillaWrapper:hover .description p, .tiendaWrapper:hover .description p, .terrazaMotorWrapper:hover .description p, .carpaClimatizadaWrapper:hover .description p, .pantallaGiganteWrapper:hover .description p, .circuitoKartsWrapper:hover .description p, .terrazaKidsWrapper:hover .description p, .WCWrapper:hover .description p, .rockodromoWrapper:hover .description p, .barWrapper:hover .description p, .camasElasticasWrapper:hover .description p, .hinchablesWrapper:hover .description p, .castilloInfantilWrapper:hover .description p, .canetaBlancaSoloWrapper:hover .description p, .tentWrapper:hover .description p, .pistaFutbolWrapper:hover .description p, .pistaVoleyPlayaWrapper:hover .description p, .billardsWrapper:hover .description p, .skateparkWrapper:hover .description p, .pumpTrackWrapper:hover .description p, .iniciacionSkateWrapper:hover .description p, .camasElasticas2Wrapper:hover .description p, .minirampWrapper:hover .description p, .raceBMXWrapper:hover .description p, .bigAirFoamPitWrapper:hover .description p, .terrazaFreestyleWrapper:hover .description p {
+.terrazaMiradoresWrapper:hover .description p, .circuitoMotoTrialInfantilWrapper:hover .description p, .simuladoresCarrerasWrapper:hover .description p, .slotNincoWrapper:hover .description p, .taquillaWrapper:hover .description p, .tiendaWrapper:hover .description p, .circuitoKartsWrapper:hover .description p, .terrazaKidsWrapper:hover .description p, .WCWrapper:hover .description p, .hinchablesWrapper:hover .description p, .castilloInfantilWrapper:hover .description p, .canetaBlancaSoloWrapper:hover .description p, .pistaVoleyPlayaWrapper:hover .description p, .billardsWrapper:hover .description p, .minirampWrapper:hover .description p, .raceBMXWrapper:hover .description p, .bigAirFoamPitWrapper:hover .description p, .terrazaFreestyleWrapper:hover .description p {
   font-size: 1em;
   padding: 0 5% 5% 5%;
 }
 /* line 58, ../sass/screen.scss */
-.terrazaMiradoresWrapper span img, .circuitoQuadsWrapper span img, .circuitoVipersWrapper span img, .circuitoMotoTrialInfantilWrapper span img, .simuladoresCarrerasWrapper span img, .slotNincoWrapper span img, .taquillaWrapper span img, .tiendaWrapper span img, .terrazaMotorWrapper span img, .carpaClimatizadaWrapper span img, .pantallaGiganteWrapper span img, .circuitoKartsWrapper span img, .terrazaKidsWrapper span img, .WCWrapper span img, .rockodromoWrapper span img, .barWrapper span img, .camasElasticasWrapper span img, .hinchablesWrapper span img, .castilloInfantilWrapper span img, .canetaBlancaSoloWrapper span img, .tentWrapper span img, .pistaFutbolWrapper span img, .pistaVoleyPlayaWrapper span img, .billardsWrapper span img, .skateparkWrapper span img, .pumpTrackWrapper span img, .iniciacionSkateWrapper span img, .camasElasticas2Wrapper span img, .minirampWrapper span img, .raceBMXWrapper span img, .bigAirFoamPitWrapper span img, .terrazaFreestyleWrapper span img {
+.terrazaMiradoresWrapper span img, .circuitoMotoTrialInfantilWrapper span img, .simuladoresCarrerasWrapper span img, .slotNincoWrapper span img, .taquillaWrapper span img, .tiendaWrapper span img, .circuitoKartsWrapper span img, .terrazaKidsWrapper span img, .WCWrapper span img, .hinchablesWrapper span img, .castilloInfantilWrapper span img, .canetaBlancaSoloWrapper span img, .pistaVoleyPlayaWrapper span img, .billardsWrapper span img, .minirampWrapper span img, .raceBMXWrapper span img, .bigAirFoamPitWrapper span img, .terrazaFreestyleWrapper span img {
   width: 100%;
   height: auto;
   visibility: hidden !important;
 }
 /* line 62, ../sass/screen.scss */
-.terrazaMiradoresWrapper span img:hover, .circuitoQuadsWrapper span img:hover, .circuitoVipersWrapper span img:hover, .circuitoMotoTrialInfantilWrapper span img:hover, .simuladoresCarrerasWrapper span img:hover, .slotNincoWrapper span img:hover, .taquillaWrapper span img:hover, .tiendaWrapper span img:hover, .terrazaMotorWrapper span img:hover, .carpaClimatizadaWrapper span img:hover, .pantallaGiganteWrapper span img:hover, .circuitoKartsWrapper span img:hover, .terrazaKidsWrapper span img:hover, .WCWrapper span img:hover, .rockodromoWrapper span img:hover, .barWrapper span img:hover, .camasElasticasWrapper span img:hover, .hinchablesWrapper span img:hover, .castilloInfantilWrapper span img:hover, .canetaBlancaSoloWrapper span img:hover, .tentWrapper span img:hover, .pistaFutbolWrapper span img:hover, .pistaVoleyPlayaWrapper span img:hover, .billardsWrapper span img:hover, .skateparkWrapper span img:hover, .pumpTrackWrapper span img:hover, .iniciacionSkateWrapper span img:hover, .camasElasticas2Wrapper span img:hover, .minirampWrapper span img:hover, .raceBMXWrapper span img:hover, .bigAirFoamPitWrapper span img:hover, .terrazaFreestyleWrapper span img:hover {
+.terrazaMiradoresWrapper span img:hover, .circuitoMotoTrialInfantilWrapper span img:hover, .simuladoresCarrerasWrapper span img:hover, .slotNincoWrapper span img:hover, .taquillaWrapper span img:hover, .tiendaWrapper span img:hover, .circuitoKartsWrapper span img:hover, .terrazaKidsWrapper span img:hover, .WCWrapper span img:hover, .hinchablesWrapper span img:hover, .castilloInfantilWrapper span img:hover, .canetaBlancaSoloWrapper span img:hover, .pistaVoleyPlayaWrapper span img:hover, .billardsWrapper span img:hover, .minirampWrapper span img:hover, .raceBMXWrapper span img:hover, .bigAirFoamPitWrapper span img:hover, .terrazaFreestyleWrapper span img:hover {
   /*background-color:#6CF8B0;*/
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
 /* line 68, ../sass/screen.scss */
-.terrazaMiradoresWrapper .description, .circuitoQuadsWrapper .description, .circuitoVipersWrapper .description, .circuitoMotoTrialInfantilWrapper .description, .simuladoresCarrerasWrapper .description, .slotNincoWrapper .description, .taquillaWrapper .description, .tiendaWrapper .description, .terrazaMotorWrapper .description, .carpaClimatizadaWrapper .description, .pantallaGiganteWrapper .description, .circuitoKartsWrapper .description, .terrazaKidsWrapper .description, .WCWrapper .description, .rockodromoWrapper .description, .barWrapper .description, .camasElasticasWrapper .description, .hinchablesWrapper .description, .castilloInfantilWrapper .description, .canetaBlancaSoloWrapper .description, .tentWrapper .description, .pistaFutbolWrapper .description, .pistaVoleyPlayaWrapper .description, .billardsWrapper .description, .skateparkWrapper .description, .pumpTrackWrapper .description, .iniciacionSkateWrapper .description, .camasElasticas2Wrapper .description, .minirampWrapper .description, .raceBMXWrapper .description, .bigAirFoamPitWrapper .description, .terrazaFreestyleWrapper .description {
+.terrazaMiradoresWrapper .description, .circuitoMotoTrialInfantilWrapper .description, .simuladoresCarrerasWrapper .description, .slotNincoWrapper .description, .taquillaWrapper .description, .tiendaWrapper .description, .circuitoKartsWrapper .description, .terrazaKidsWrapper .description, .WCWrapper .description, .hinchablesWrapper .description, .castilloInfantilWrapper .description, .canetaBlancaSoloWrapper .description, .pistaVoleyPlayaWrapper .description, .billardsWrapper .description, .minirampWrapper .description, .raceBMXWrapper .description, .bigAirFoamPitWrapper .description, .terrazaFreestyleWrapper .description {
+  position: absolute;
+  left: -9999px;
+  background-color: #ffffff;
+  z-index: 10;
+  width: 10vh;
+  height: auto;
+}
+
+/* line 80, ../sass/screen.scss */
+.circuitoQuadsWrapper:hover .description, .circuitoVipersWrapper:hover .description, .terrazaMotorWrapper:hover .description, .carpaClimatizadaWrapper:hover .description, .pantallaGiganteWrapper:hover .description, .rockodromoWrapper:hover .description, .barWrapper:hover .description, .camasElasticasWrapper:hover .description, .tentWrapper:hover .description, .pistaFutbolWrapper:hover .description, .skateparkWrapper:hover .description, .pumpTrackWrapper:hover .description, .iniciacionSkateWrapper:hover .description, .camasElasticas2Wrapper:hover .description {
+  left: -80%;
+  top: -200%;
+  background-color: #ffffff;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -moz-box-shadow: #949194 2px 2px 10px;
+  -webkit-box-shadow: #949194 2px 2px 10px;
+  box-shadow: #949194 2px 2px 10px;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  -webkit-background-size: auto;
+  background-size: auto;
+  background-size: 100% 100%;
+  z-index: 0;
+  opacity: 0.8;
+  text-align: center;
+}
+/* line 91, ../sass/screen.scss */
+.circuitoQuadsWrapper:hover .description a, .circuitoVipersWrapper:hover .description a, .terrazaMotorWrapper:hover .description a, .carpaClimatizadaWrapper:hover .description a, .pantallaGiganteWrapper:hover .description a, .rockodromoWrapper:hover .description a, .barWrapper:hover .description a, .camasElasticasWrapper:hover .description a, .tentWrapper:hover .description a, .pistaFutbolWrapper:hover .description a, .skateparkWrapper:hover .description a, .pumpTrackWrapper:hover .description a, .iniciacionSkateWrapper:hover .description a, .camasElasticas2Wrapper:hover .description a {
+  margin: 0 auto;
+}
+/* line 94, ../sass/screen.scss */
+.circuitoQuadsWrapper:hover .description img, .circuitoVipersWrapper:hover .description img, .terrazaMotorWrapper:hover .description img, .carpaClimatizadaWrapper:hover .description img, .pantallaGiganteWrapper:hover .description img, .rockodromoWrapper:hover .description img, .barWrapper:hover .description img, .camasElasticasWrapper:hover .description img, .tentWrapper:hover .description img, .pistaFutbolWrapper:hover .description img, .skateparkWrapper:hover .description img, .pumpTrackWrapper:hover .description img, .iniciacionSkateWrapper:hover .description img, .camasElasticas2Wrapper:hover .description img {
+  visibility: visible !important;
+  padding: 5%;
+  height: 20vh;
+  width: auto;
+  clear: both;
+  magin: 0 auto;
+}
+/* line 102, ../sass/screen.scss */
+.circuitoQuadsWrapper:hover .description .h3, .circuitoVipersWrapper:hover .description .h3, .terrazaMotorWrapper:hover .description .h3, .carpaClimatizadaWrapper:hover .description .h3, .pantallaGiganteWrapper:hover .description .h3, .rockodromoWrapper:hover .description .h3, .barWrapper:hover .description .h3, .camasElasticasWrapper:hover .description .h3, .tentWrapper:hover .description .h3, .pistaFutbolWrapper:hover .description .h3, .skateparkWrapper:hover .description .h3, .pumpTrackWrapper:hover .description .h3, .iniciacionSkateWrapper:hover .description .h3, .camasElasticas2Wrapper:hover .description .h3 {
+  padding: 5%;
+  font-size: 1.5em;
+  clear: left;
+}
+/* line 107, ../sass/screen.scss */
+.circuitoQuadsWrapper:hover .description p, .circuitoVipersWrapper:hover .description p, .terrazaMotorWrapper:hover .description p, .carpaClimatizadaWrapper:hover .description p, .pantallaGiganteWrapper:hover .description p, .rockodromoWrapper:hover .description p, .barWrapper:hover .description p, .camasElasticasWrapper:hover .description p, .tentWrapper:hover .description p, .pistaFutbolWrapper:hover .description p, .skateparkWrapper:hover .description p, .pumpTrackWrapper:hover .description p, .iniciacionSkateWrapper:hover .description p, .camasElasticas2Wrapper:hover .description p {
+  font-size: 1em;
+  padding: 0 5% 5% 5%;
+}
+/* line 115, ../sass/screen.scss */
+.circuitoQuadsWrapper span img, .circuitoVipersWrapper span img, .terrazaMotorWrapper span img, .carpaClimatizadaWrapper span img, .pantallaGiganteWrapper span img, .rockodromoWrapper span img, .barWrapper span img, .camasElasticasWrapper span img, .tentWrapper span img, .pistaFutbolWrapper span img, .skateparkWrapper span img, .pumpTrackWrapper span img, .iniciacionSkateWrapper span img, .camasElasticas2Wrapper span img {
+  width: 100%;
+  height: auto;
+  visibility: hidden !important;
+}
+/* line 119, ../sass/screen.scss */
+.circuitoQuadsWrapper span img:hover, .circuitoVipersWrapper span img:hover, .terrazaMotorWrapper span img:hover, .carpaClimatizadaWrapper span img:hover, .pantallaGiganteWrapper span img:hover, .rockodromoWrapper span img:hover, .barWrapper span img:hover, .camasElasticasWrapper span img:hover, .tentWrapper span img:hover, .pistaFutbolWrapper span img:hover, .skateparkWrapper span img:hover, .pumpTrackWrapper span img:hover, .iniciacionSkateWrapper span img:hover, .camasElasticas2Wrapper span img:hover {
+  /*background-color:#6CF8B0;*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 125, ../sass/screen.scss */
+.circuitoQuadsWrapper .description, .circuitoVipersWrapper .description, .terrazaMotorWrapper .description, .carpaClimatizadaWrapper .description, .pantallaGiganteWrapper .description, .rockodromoWrapper .description, .barWrapper .description, .camasElasticasWrapper .description, .tentWrapper .description, .pistaFutbolWrapper .description, .skateparkWrapper .description, .pumpTrackWrapper .description, .iniciacionSkateWrapper .description, .camasElasticas2Wrapper .description {
   position: absolute;
   left: -9999px;
   background-color: #ffffff;
   z-index: 10;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 body {
   font-family: sans-serif;
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
+.container {
+  width: auto;
+  height: 50%;
+  overflow: hidden;
+}
+
+/* line 143, ../sass/screen.scss */
 #ground {
-  background-image: url("../images/ground.png");
+  background-image: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/ground.png");
   background-repeat: no-repeat;
   -moz-background-size: contain;
   -o-background-size: contain;
   -webkit-background-size: contain;
   background-size: contain;
-  height: 2000px;
-  width: auto;
   margin: 5em;
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 .attractionsWrapper {
   position: relative;
   width: 100%;
@@ -170,14 +242,14 @@ body {
   clear: none;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .salidasWrapper {
   position: absolute;
   top: 27%;
   left: 17%;
   width: 67%;
 }
-/* line 105, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 .salidasWrapper img {
   width: 100%;
   height: auto;
@@ -186,128 +258,128 @@ body {
   -o-transition: width 0.5s;
   transition: width 0.5s;
 }
-/* line 112, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 .salidasWrapper img:hover {
   width: 110%;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .terrazaMiradoresWrapper {
   position: absolute;
   top: 31.75%;
   left: 45.75%;
   width: 8.75%;
-  background: url("../images/terrazaMiradoresSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/terrazaMiradoresSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 126, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .terrazaMiradoresWrapper:hover {
   background-position: 0 90%;
 }
-/* line 129, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .terrazaMiradoresWrapper .description {
   z-index: 10;
 }
 
-/* line 134, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .circuitoQuadsWrapper {
   position: absolute;
   top: 36%;
   left: 34.75%;
   width: 8.75%;
-  background: url("../images/circuitoQuadsSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/circuitoQuadsSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 143, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 .circuitoQuadsWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .circuitoVipersWrapper {
   position: absolute;
   top: 36%;
   left: 42.75%;
   width: 7%;
-  background: url("../images/circuitoVipersSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/circuitoVipersSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 157, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .circuitoVipersWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .circuitoMotoTrialInfantilWrapper {
   position: absolute;
   top: 36%;
   left: 49.8%;
   width: 7%;
-  background: url("../images/circuitoMotoTrialInfantilSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/circuitoMotoTrialInfantilSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 171, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 .circuitoMotoTrialInfantilWrapper:hover {
   background-position: 0 106%;
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .simuladoresCarrerasWrapper {
   position: absolute;
   top: 35.75%;
   left: 54.8%;
   width: 6%;
-  background: url("../images/simuladoresCarrerasSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/simuladoresCarrerasSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 185, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .simuladoresCarrerasWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 190, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .slotNincoWrapper {
   position: absolute;
   top: 36.5%;
   left: 59.8%;
   width: 5%;
-  background: url("../images/slotNincoSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/slotNincoSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 199, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .slotNincoWrapper:hover {
   background-position: 0 107%;
 }
 
-/* line 204, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .taquillaWrapper {
   position: absolute;
   top: 26.5%;
   left: 63%;
   width: 8%;
-  background: url("../images/taquillaSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/taquillaSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 213, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .taquillaWrapper:hover {
   background-position: 0 100%;
 }
 
-/* line 218, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 .tiendaWrapper {
   position: absolute;
   top: 36.5%;
   left: 64%;
   width: 7%;
-  background: url("../images/tiendaSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/tiendaSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 227, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 .tiendaWrapper:hover {
   background-position: 0 104%;
 }
 
-/* line 232, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 .terrazaMotorWrapper {
   position: absolute;
   top: 40.5%;
@@ -315,371 +387,359 @@ body {
   width: 7%;
   z-index: 1;
   padding-top: 1%;
-  background: url("../images/terrazaMotorSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/terrazaMotorSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 242, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 .terrazaMotorWrapper:hover {
   background-position: 0 112%;
 }
 
-/* line 247, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .carpaClimatizadaWrapper {
   position: absolute;
   top: 40.5%;
   left: 30%;
   width: 6%;
-  background: url("../images/carpaClimatizadaSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/carpaClimatizadaSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 256, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 .carpaClimatizadaWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 261, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 .pantallaGiganteWrapper {
   position: absolute;
   top: 48%;
   left: 26%;
   width: 6%;
-  background: url("../images/pantallaGiganteSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/pantallaGiganteSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 270, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss */
 .pantallaGiganteWrapper:hover {
   background-position: 0 110%;
 }
 
-/* line 275, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 .circuitoKartsWrapper {
   position: absolute;
   top: 42%;
   left: 37%;
   width: 30%;
-  background: url("../images/circuitoKartsSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/circuitoKartsSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 284, ../sass/screen.scss */
+/* line 344, ../sass/screen.scss */
 .circuitoKartsWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 289, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 .terrazaKidsWrapper {
   position: absolute;
   top: 47.5%;
   left: 72.2%;
   width: 14%;
   z-index: 1;
-  background: url("../images/terrazaKidsSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/terrazakidsSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 299, ../sass/screen.scss */
+/* line 359, ../sass/screen.scss */
 .terrazaKidsWrapper:hover {
   background-position: 0 100%;
   z-index: 1;
 }
 
-/* line 305, ../sass/screen.scss */
+/* line 365, ../sass/screen.scss */
 .WCWrapper {
   position: absolute;
   top: 42.5%;
   left: 66.5%;
   width: 7.5%;
-  background: url("../images/WCSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/WCSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 314, ../sass/screen.scss */
+/* line 374, ../sass/screen.scss */
 .WCWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 319, ../sass/screen.scss */
+/* line 379, ../sass/screen.scss */
 .rockodromoWrapper {
   position: absolute;
   top: 44.5%;
   left: 21.5%;
   width: 7.5%;
-  background: url("../images/rockodromoSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/rockodromoSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 328, ../sass/screen.scss */
+/* line 388, ../sass/screen.scss */
 .rockodromoWrapper:hover {
   background-position: 0 105%;
 }
-/* line 331, ../sass/screen.scss */
+/* line 391, ../sass/screen.scss */
 .rockodromoWrapper img {
   padding: 1%;
 }
 
-/* line 336, ../sass/screen.scss */
+/* line 396, ../sass/screen.scss */
 .barWrapper {
   position: absolute;
   top: 49%;
   left: 16.25%;
   width: 16%;
-  background: url("../images/barSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/barSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 345, ../sass/screen.scss */
+/* line 405, ../sass/screen.scss */
 .barWrapper:hover {
   background-position: 0 110%;
 }
 
-/* line 350, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 .camasElasticasWrapper {
   position: absolute;
   top: 52.25%;
   left: 34.25%;
   width: 12%;
-  background: url("../images/camasElasticasSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/camasElasticasSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 359, ../sass/screen.scss */
+/* line 419, ../sass/screen.scss */
 .camasElasticasWrapper:hover {
   background-position: 0 105%;
 }
-/* line 362, ../sass/screen.scss */
+/* line 422, ../sass/screen.scss */
 .camasElasticasWrapper img {
   padding: 1%;
 }
 
-/* line 367, ../sass/screen.scss */
+/* line 427, ../sass/screen.scss */
 .hinchablesWrapper {
   position: absolute;
   top: 47.5%;
   left: 46%;
   width: 25%;
-  background: url("../images/hinchablesSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/hinchablesSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 376, ../sass/screen.scss */
+/* line 436, ../sass/screen.scss */
 .hinchablesWrapper:hover {
   background-position: 0 102%;
 }
 
-/* line 381, ../sass/screen.scss */
+/* line 441, ../sass/screen.scss */
 .castilloInfantilWrapper {
   position: absolute;
   top: 46.5%;
   left: 61%;
   width: 8%;
   z-index: 2;
-  background: url("../images/castilloInfantilSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/castilloInfantilSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 391, ../sass/screen.scss */
+/* line 451, ../sass/screen.scss */
 .castilloInfantilWrapper:hover {
   background-position: 0 115%;
 }
 
-/* line 396, ../sass/screen.scss */
+/* line 456, ../sass/screen.scss */
 .canetaBlancaSoloWrapper {
   position: absolute;
   top: 50.5%;
   left: 70%;
   width: 5.25%;
   z-index: 3;
-  background: url("../images/canetaBlancaSoloSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/canetaBlancaSoloSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 404, ../sass/screen.scss */
+/* line 464, ../sass/screen.scss */
 .canetaBlancaSoloWrapper img {
   width: 100%;
   height: auto;
 }
-/* line 410, ../sass/screen.scss */
+/* line 470, ../sass/screen.scss */
 .canetaBlancaSoloWrapper:hover {
   background-position: 0 100%;
 }
 
-/* line 415, ../sass/screen.scss */
+/* line 475, ../sass/screen.scss */
 .tentWrapper {
   position: absolute;
   top: 57%;
   left: 21.5%;
   width: 7%;
-  background: url("../images/tentSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/tentSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 424, ../sass/screen.scss */
+/* line 484, ../sass/screen.scss */
 .tentWrapper:hover {
   background-position: 0 114%;
 }
 
-/* line 429, ../sass/screen.scss */
+/* line 489, ../sass/screen.scss */
 .pistaFutbolWrapper {
   position: absolute;
   top: 56.5%;
   left: 26.75%;
   width: 17.5%;
-  background: url("../images/pistaFutbolSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/pistaFutbolSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 438, ../sass/screen.scss */
+/* line 498, ../sass/screen.scss */
 .pistaFutbolWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 443, ../sass/screen.scss */
+/* line 503, ../sass/screen.scss */
 .pistaVoleyPlayaWrapper {
   position: absolute;
   top: 56.5%;
   left: 45.5%;
   width: 16%;
-  background: url("../images/pistaVoleyPlayaSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/pistaVoleyPlayaSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 452, ../sass/screen.scss */
+/* line 512, ../sass/screen.scss */
 .pistaVoleyPlayaWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 457, ../sass/screen.scss */
+/* line 517, ../sass/screen.scss */
 .billardsWrapper {
   position: absolute;
   top: 54%;
   left: 68%;
   width: 6%;
   z-index: 3;
-  background: url("../images/billardsSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/billardsSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 467, ../sass/screen.scss */
+/* line 527, ../sass/screen.scss */
 .billardsWrapper:hover {
   background-position: 0 100%;
   z-index: 10;
 }
 
-/* line 473, ../sass/screen.scss */
+/* line 533, ../sass/screen.scss */
 .skateparkWrapper {
   position: absolute;
   top: 65%;
   left: 13%;
   width: 25%;
-  background: url("../images/skateparkSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/skateparkSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 482, ../sass/screen.scss */
+/* line 542, ../sass/screen.scss */
 .skateparkWrapper:hover {
   background-position: 0 100%;
 }
 
-/* line 487, ../sass/screen.scss */
+/* line 547, ../sass/screen.scss */
 .pumpTrackWrapper {
   position: absolute;
   top: 67%;
   left: 38.5%;
   width: 16%;
   z-index: 3;
-  background: url("../images/pumpTrackSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/pumpTrackSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 497, ../sass/screen.scss */
+/* line 557, ../sass/screen.scss */
 .pumpTrackWrapper:hover {
   background-position: 0 105%;
 }
-/* line 500, ../sass/screen.scss */
+/* line 560, ../sass/screen.scss */
 .pumpTrackWrapper img {
   padding: 1%;
 }
 
-/* line 505, ../sass/screen.scss */
+/* line 565, ../sass/screen.scss */
 .iniciacionSkateWrapper {
   position: absolute;
   top: 72%;
   left: 37%;
   width: 16%;
-  background: url("../images/iniciacionSkateSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/iniciacionSkateSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 514, ../sass/screen.scss */
+/* line 574, ../sass/screen.scss */
 .iniciacionSkateWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 519, ../sass/screen.scss */
+/* line 579, ../sass/screen.scss */
 .camasElasticas2Wrapper {
   position: absolute;
   top: 76%;
   left: 34%;
   width: 7%;
-  background: url("../images/camasElasticas2Sprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/camasElasticas2Sprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 528, ../sass/screen.scss */
+/* line 588, ../sass/screen.scss */
 .camasElasticas2Wrapper:hover {
   background-position: 0 105%;
 }
 
-/*-----FIX THIS ----*/
-/* line 535, ../sass/screen.scss */
-.camasElasticas img:hover + .camasElasticas2 img:hover {
-  background-color: red;
-  transform: translate(0.5vh, -0.5vh);
-  -ms-transform: translate(0.5vh, -0.5vh);
-  -webkit-transform: translate(0.5vh, -0.5vh);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* line 544, ../sass/screen.scss */
+/* line 595, ../sass/screen.scss */
 .minirampWrapper {
   position: absolute;
   top: 75%;
   left: 42%;
   width: 17%;
   z-index: 2;
-  background: url("../images/minirampSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/minirampSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 554, ../sass/screen.scss */
+/* line 605, ../sass/screen.scss */
 .minirampWrapper:hover {
   background-position: 0 111%;
 }
 
-/* line 559, ../sass/screen.scss */
+/* line 610, ../sass/screen.scss */
 .raceBMXWrapper {
   position: absolute;
   top: 67%;
   left: 53.5%;
   width: 26%;
   z-index: 1;
-  background: url("../images/raceBMXSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/raceBMXSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 569, ../sass/screen.scss */
+/* line 620, ../sass/screen.scss */
 .raceBMXWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 574, ../sass/screen.scss */
+/* line 625, ../sass/screen.scss */
 .bigAirFoamPitWrapper {
   position: absolute;
   top: 60%;
   left: 68%;
   width: 19%;
-  z-index: 2;
-  background: url("../images/bigAirFoamPitSprite.png") no-repeat;
+  z-index: 4;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/bigAirFoamPitSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 584, ../sass/screen.scss */
+/* line 635, ../sass/screen.scss */
 .bigAirFoamPitWrapper:hover {
   background-position: 0 105%;
 }
 
-/* line 589, ../sass/screen.scss */
+/* line 640, ../sass/screen.scss */
 .terrazaFreestyleWrapper {
   position: absolute;
   top: 80.5%;
   left: 33%;
   width: 19%;
-  background: url("../images/terrazaFreestyleSprite.png") no-repeat;
+  background: url("http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/terrazaFreestyleSprite.png") no-repeat;
   background-size: 100%;
 }
-/* line 597, ../sass/screen.scss */
+/* line 648, ../sass/screen.scss */
 .terrazaFreestyleWrapper:hover {
   background-position: 0 103%;
 }

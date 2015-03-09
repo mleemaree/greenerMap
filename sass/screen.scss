@@ -16,7 +16,7 @@
 		-o-transform:translate(0.5vh,-0.5vh);
 	}
 }
-%span{
+%spanRight{
 	&:hover{
 				.description{
 					left:80%;
@@ -42,7 +42,64 @@
 						clear:both;
 						magin:0 auto;
 					}
-					h3{
+					.h3{
+						padding:5%;
+						font-size: 1.5em;
+						clear:left;
+					}
+					p{
+						font-size:1em;
+						padding: 0 5% 5% 5%;
+
+					}
+				}
+	}
+	span{
+		img{
+			width: 100%;
+			height: auto;
+			visibility:hidden !important;
+			&:hover{
+				/*background-color:#6CF8B0;*/
+				@include border-radius(5px);
+			}
+		}		
+	}
+	.description{
+		position:absolute;
+		left: -9999px;
+		background-color: #ffffff;	
+		z-index:10;
+		width:10vh;
+		height:auto;
+	}
+}
+
+%spanLeft{
+	&:hover{
+				.description{
+					left:-80%;
+					top:-200%;
+					background-color: #ffffff;
+					@include border-radius(30px);
+					@include box-shadow(#949194 2px 2px 10px);
+					@include background-size(auto);
+					background-size: 100% 100%;
+					z-index:0;
+					opacity:0.8;
+					text-align:center;
+					a{
+						margin: 0 auto;
+					}
+					img{
+						visibility: visible !important;
+						padding: 5%;
+						height: 20vh;
+						width:auto;
+						clear:both;
+						magin:0 auto;
+					}
+					.h3{
 						padding:5%;
 						font-size: 1.5em;
 						clear:left;
@@ -73,17 +130,20 @@
 	}
 }
 
-
 body{
 	font-family:sans-serif;
 }
 
+.container{
+	width:auto;
+	height:50%;
+	overflow:hidden;
+}
+
 #ground{
-	background-image: url('../images/ground.png');
+	background-image: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/ground.png');
 	background-repeat: no-repeat;
 	@include background-size(contain);
-	height: 2000px;
-	width: auto;
 	margin:5em;
 
 }
@@ -120,8 +180,8 @@ body{
 	top:31.75%;
 	left: 45.75%;
 	width:8.75%;	
-	@extend %span;
-	background: url('../images/terrazaMiradoresSprite.png') no-repeat;
+	@extend %spanRight;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/terrazaMiradoresSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 90%;
@@ -136,9 +196,9 @@ body{
 	top:36%;
 	left: 34.75%;
 	width:8.75%;	
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/circuitoQuadsSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/circuitoQuadsSprite.png') no-repeat;
 	background-size:100%;
 	&:hover{
 		background-position: 0 105%;
@@ -150,9 +210,9 @@ body{
 	top: 36%;
 	left: 42.75%;
 	width: 7%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/circuitoVipersSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/circuitoVipersSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -164,9 +224,9 @@ body{
 	top: 36%;
 	left: 49.8%;
 	width: 7%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/circuitoMotoTrialInfantilSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/circuitoMotoTrialInfantilSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 106%;
@@ -178,9 +238,9 @@ body{
 	top: 35.75%;
 	left: 54.8%;
 	width: 6%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/simuladoresCarrerasSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/simuladoresCarrerasSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -192,9 +252,9 @@ body{
 	top: 36.5%;
 	left: 59.8%;
 	width: 5%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/slotNincoSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/slotNincoSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 107%;
@@ -206,9 +266,9 @@ body{
 	top: 26.5%;
 	left: 63%;
 	width: 8%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/taquillaSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/taquillaSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 100%;
@@ -220,9 +280,9 @@ body{
 	top: 36.5%;
 	left: 64%;
 	width: 7%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/tiendaSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/tiendaSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 104%;
@@ -236,8 +296,8 @@ body{
 	width: 7%;
 	z-index:1;
 	padding-top:1%;
-	@extend %span;
-	background: url('../images/terrazaMotorSprite.png') no-repeat;
+	@extend %spanLeft;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/terrazaMotorSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 112%;
@@ -249,9 +309,9 @@ body{
 	top: 40.5%;
 	left: 30%;
 	width: 6%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/carpaClimatizadaSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/carpaClimatizadaSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -263,9 +323,9 @@ body{
 	top: 48%;
 	left: 26%;
 	width: 6%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/pantallaGiganteSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/pantallaGiganteSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 110%;
@@ -277,9 +337,9 @@ body{
 	top: 42%;
 	left: 37%;
 	width: 30%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/circuitoKartsSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/circuitoKartsSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -292,9 +352,9 @@ body{
 	left: 72.2%;
 	width: 14%;
 	z-index:1;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/terrazaKidsSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/terrazakidsSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 100%;
@@ -307,9 +367,9 @@ body{
 	top: 42.5%;
 	left: 66.5%;
 	width: 7.5%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/WCSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/WCSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -321,9 +381,9 @@ body{
 	top: 44.5%;
 	left: 21.5%;
 	width: 7.5%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/rockodromoSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/rockodromoSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -338,9 +398,9 @@ body{
 	top: 49%;
 	left: 16.25%;
 	width: 16%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/barSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/barSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 110%;
@@ -352,9 +412,9 @@ body{
 	top: 52.25%;
 	left: 34.25%;
 	width: 12%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/camasElasticasSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/camasElasticasSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -369,9 +429,9 @@ body{
 	top: 47.5%;
 	left: 46%;
 	width: 25%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/hinchablesSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/hinchablesSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 102%;
@@ -383,10 +443,10 @@ body{
 	top: 46.5%;
 	left: 61%;
 	width: 8%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
 	z-index:2;
-	background: url('../images/castilloInfantilSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/castilloInfantilSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 115%;
@@ -398,14 +458,14 @@ body{
 	top: 50.5%;
 	left: 70%;
 	width: 5.25%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
 	z-index:3;
 	img{
 		width: 100%;
 		height: auto;
 	}
-	background: url('../images/canetaBlancaSoloSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/canetaBlancaSoloSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 100%;
@@ -417,9 +477,9 @@ body{
 	top: 57%;
 	left: 21.5%;
 	width: 7%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/tentSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/tentSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 114%;
@@ -431,9 +491,9 @@ body{
 	top: 56.5%;
 	left: 26.75%;
 	width: 17.5%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/pistaFutbolSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/pistaFutbolSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -445,9 +505,9 @@ body{
 	top: 56.5%;
 	left: 45.5%;
 	width: 16%;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/pistaVoleyPlayaSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/pistaVoleyPlayaSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -460,9 +520,9 @@ body{
 	left: 68%;
 	width: 6%;
 	z-index:3;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/billardsSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/billardsSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 100%;
@@ -475,9 +535,9 @@ body{
 	top: 65%;
 	left: 13%;
 	width: 25%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/skateparkSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/skateparkSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 100%;
@@ -490,9 +550,9 @@ body{
 	left: 38.5%;
 	width: 16%;
 	z-index:3;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/pumpTrackSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/pumpTrackSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -507,9 +567,9 @@ body{
 	top: 72%;
 	left: 37%;
 	width: 16%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/iniciacionSkateSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/iniciacionSkateSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -521,24 +581,15 @@ body{
 	top: 76%;
 	left: 34%;
 	width: 7%;
-	@extend %span;
+	@extend %spanLeft;
 	@extend %move;
-	background: url('../images/camasElasticas2Sprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/camasElasticas2Sprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
 	}
 }
 
-/*-----FIX THIS ----*/
-
-.camasElasticas img:hover + .camasElasticas2 img:hover{
-			background-color:red;
-			transform:translate(0.5vh,-0.5vh);
-			-ms-transform:translate(0.5vh,-0.5vh);
-			-webkit-transform:translate(0.5vh,-0.5vh);
-			@include border-radius(5px);
-}
 
 
 .minirampWrapper{
@@ -547,9 +598,9 @@ body{
 	left: 42%;
 	width: 17%;
 	z-index:2;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/minirampSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/minirampSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 111%;
@@ -562,9 +613,9 @@ body{
 	left: 53.5%;
 	width: 26%;
 	z-index:1;
-	@extend %span;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/raceBMXSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/raceBMXSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -576,10 +627,10 @@ body{
 	top: 60%;
 	left: 68%;
 	width: 19%;
-	z-index:2;
-	@extend %span;
+	z-index:4;
+	@extend %spanRight;
 	@extend %move;
-	background: url('../images/bigAirFoamPitSprite.png') no-repeat;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/bigAirFoamPitSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 105%;
@@ -591,11 +642,12 @@ body{
 	top: 80.5%;
 	left: 33%;
 	width: 19%;
-	@extend %span;
-	background: url('../images/terrazaFreestyleSprite.png') no-repeat;
+	@extend %spanRight;
+	background: url('http://www.greenindoorpark.es/wp-content/uploads/2015/03/map-images/terrazaFreestyleSprite.png') no-repeat;
 	background-size: 100%;
 	&:hover{
 		background-position: 0 103%;
 	}
 }
+
 
